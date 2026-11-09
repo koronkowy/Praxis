@@ -1,16 +1,16 @@
 <img width="1409" height="880" alt="Screenshot 2026-05-22 at 9 13 01 PM" src="https://github.com/user-attachments/assets/c065af82-eb51-40d1-8c33-2e9bd2bb832b" />
 
-# 🛡️ Threaty: The High-Signal Threat Intel Job Board
+# 🛡️ Praxis: The High-Signal Progressive Job Board
 
-**Threaty** is a curated minimalist job board designed to filter out general engineering noise. It isolate roles specifically within **Cyber Threat Intelligence (CTI), Detection Engineering, Incident Response (IR), and Security Automation.**
+**Praxis** is a curated, minimalist job board designed to filter out ethically compromised and standard corporate noise. It isolates roles specifically within **human rights advocacy, public interest technology, labor organizing, and vetted progressive impact work.**
 
-By surfacing region constraints, work models, and dynamic recency metrics directly in the dashboard, Threaty helps you identify roles that match your specific geographic and authorization requirements instantly.
+By surfacing region constraints, work models, and dynamic recency metrics directly in the dashboard, Praxis helps you identify roles that match your specific geographic and authorization requirements instantly.
 
 **Created by [Lacey Kasten](https://laceykasten.com/).**
 
 **Powered by:** GitHub Actions, Gemini AI (Data Clerk), & Vanilla JavaScript.
 
-*Threaty is an open-source project. Follow the project or contribute on [GitHub](https://github.com/koronkowy/Threaty).*
+*Praxis is an open-source project. Follow the project or contribute on [GitHub](https://github.com/koronkowy/Praxis).*
 
 ---
 ## 📥 How to Submit a Position
@@ -19,30 +19,30 @@ We welcome community contributions! To propose new roles for the board, follow t
 
 1. **Open an Issue:** Navigate to the GitHub Issues tab and click "New issue."
 2. **Batch Your URLs:** Paste the direct URLs of the job postings into the issue body. (Please use *one URL per line* if submitting a batch).
-3. **The Gatekeeper Review (Why the delay?):** To protect our backend API quotas from spam and ensure only high-signal Threat Intel roles make it to the board, **automation does not run immediately**. Once you submit your issue, a repository maintainer will manually review the links.
+3. **The Gatekeeper Review (Why the delay?):** To protect our backend API quotas from spam and ensure only high-signal progressive roles make it to the board, **automation does not run immediately**. Once you submit your issue, a repository maintainer will manually review the links.
 4. **Automation Trigger:** If the links fit our scope, the maintainer will manually apply the `job-submission` label. This label triggers our background "Data Clerk" to extract the job data and create a Pull Request.
 5. **Live Deployment:** Once the generated data is merged by the maintainer, the roles will instantly appear live on the board.
 
-> **Note:** Please submit only active job postings relevant to CTI, Detection Engineering, IR, or Security Automation. Submitting generic IT roles, non-job URLs, or "junk" data may result in submission privileges being revoked.
+> **Note:** Please submit only active job postings relevant to human rights advocacy, public interest technology, or labor organizing. Submitting ethically compromised roles, non-job URLs, or "junk" data may result in submission privileges being revoked.
 
 ---
 
 ## 🛠️ System Architecture & Workflow
 
-Threaty utilizes GitHub’s native infrastructure for a zero-cost, high-performance pipeline.
+Praxis utilizes GitHub’s native infrastructure for a zero-cost, high-performance pipeline.
 
 ### The Ingestion Flow
 
 1. **Trigger:** A labeled GitHub Issue initiates a **GitHub Action** runner.
 2. **Extraction:** A Python-based "Data Clerk" (`parser.py`) scrapes the URL and uses **Gemini AI** to extract structured metadata.
 3. **Deduplication:** The script validates the URL against `jobs.json`. Duplicate URLs are rejected; new jobs are assigned a sequential ID.
-4. **Human Gatekeeper:** A **Pull Request** is generated. This allows for manual verification of scope (CTI relevance), data accuracy, and final approval before hitting `main`.
+4. **Human Gatekeeper:** A **Pull Request** is generated. This allows for manual verification of scope (progressive relevance), data accuracy, and final approval before hitting `main`.
 
 ---
 
 ## 🤖 Automation: Daily Health Check
 
-![Daily Health Check](https://github.com/koronkowy/Threaty/actions/workflows/health_check.yml/badge.svg)
+![Daily Health Check](https://github.com/koronkowy/Praxis/actions/workflows/health_check.yml/badge.svg)
 
 To ensure the job board stays relevant, I’ve built an automated **Health Check** pipeline that runs daily to identify expired or broken job postings.
 
@@ -70,11 +70,11 @@ This process is fully hands-free:
 
 ## 🤖 AI Integration & Gemini API Usage
 
-![Gemini 429 Errors](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/koronkowy/Threaty/main/badge_429.json&logo=googlegemini) ![Gemini 503 Errors](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/koronkowy/Threaty/main/badge_503.json&logo=googlegemini)
+![Gemini 429 Errors](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/koronkowy/Praxis/main/badge_429.json&logo=googlegemini) ![Gemini 503 Errors](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/koronkowy/Praxis/main/badge_503.json&logo=googlegemini)
 
 > **Note:** If the **Gemini 429 Errors** badge is red, job postings may be delayed as we have hit our daily quota or per-minute rate limits for the Gemini AI. If the **Gemini 503 Errors** badge is red, the Gemini API is currently overloaded or experiencing downtime. Please check back later!
 
-Threaty relies on Google's **Gemini AI** (specifically the `gemini-flash-latest` model) acting as a "Data Clerk" to parse and structure the unstructured text of job descriptions.
+Praxis relies on Google's **Gemini AI** (specifically the `gemini-flash-latest` model) acting as a "Data Clerk" to parse and structure the unstructured text of job descriptions.
 
 This project is built to work fairly well even on **Gemini's Free Tier**. However, the free tier does come with restrictions regarding daily limits and per-minute API calls. If the ingestion pipeline is processing a large batch of jobs, you may encounter temporary rate limits (429 errors).
 
