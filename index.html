@@ -536,15 +536,18 @@
                     const orgDiv = document.createElement('div');
                     orgDiv.className = 'job';
 
-                    const categoryLabels = org.category.split(',').map(category => {
-                        const categoryClass = `category-${category.trim().toLowerCase().replace(/\s+/g, '')}`;
-                        return `<span class="category-label ${categoryClass}">${category.trim()}</span>`;
-                    }).join(' ');
+                    let categoryLabels = '';
+                    if (org.category) {
+                        categoryLabels = org.category.split(',').map(category => {
+                            const categoryClass = `category-${category.trim().toLowerCase().replace(/\s+/g, '')}`;
+                            return `<span class="category-label ${categoryClass}">${category.trim()}</span>`;
+                        }).join(' ');
+                    }
 
                     orgDiv.innerHTML = `
                         <h2>${org.companyName}</h2>
                         <p><strong>Website:</strong> <a href="${org.companyWebsite}" target="_blank">${org.companyWebsite}</a></p>
-                        <p><strong>Careers Page:</strong> <a href="${org.careersPage}" target="_blank">Apply Here</a></p>
+                        ${org.careersPage ? `<p><strong>Careers Page:</strong> <a href="${org.careersPage}" target="_blank">Apply Here</a></p>` : ''}
                         ${org.notes ? `<p><strong>Notes:</strong> ${org.notes}</p>` : ''}
                         ${categoryLabels}
                     `;
