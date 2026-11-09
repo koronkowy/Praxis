@@ -6,28 +6,28 @@
     <title>Praxis: A Not Evil Job Board</title>
     <style>
         :root {
-            --bg-color: #313338;
-            --container-bg: #2B2D31;
-            --container-border: #5865F2;
-            --accent-color: #5865F2;
-            --text-primary: #DBDEE1;
-            --text-heading: #F2F3F5;
-            --link-color: #00A8FC;
-            --input-bg: #1E1F22;
-            --input-border: #1E1F22;
-            --bubble-bg: #2B2D31;
-            --table-header-bg: #2B2D31;
-            --table-border: #1E1F22;
-            --row-hover: #313338;
-            --secondary-text: #949BA4;
-            --job-bg: #2B2D31;
+            --bg-color: #121212;
+            --container-bg: #1e1e1e;
+            --container-border: #3794FF;
+            --accent-color: #3794FF;
+            --text-primary: #E0E0E0;
+            --text-heading: #FFFFFF;
+            --link-color: #4D90FE;
+            --input-bg: #121212;
+            --input-border: #333333;
+            --bubble-bg: #1e1e1e;
+            --table-header-bg: #1e1e1e;
+            --table-border: #333333;
+            --row-hover: #2a2a2a;
+            --secondary-text: #AAAAAA;
+            --job-bg: #1e1e1e;
         }
 
         [data-theme="light"] {
             --bg-color: #F2F3F5;
             --container-bg: #FFFFFF;
-            --container-border: #5865F2;
-            --accent-color: #5865F2;
+            --container-border: #3794FF;
+            --accent-color: #3794FF;
             --text-primary: #313338;
             --text-heading: #060607;
             --link-color: #0078D4;
@@ -93,7 +93,7 @@
             text-decoration: underline;
         }
 
-        #searchBar {
+        #searchBar, #orgSearchBar {
             width: 100%;
             padding: 10px;
             margin-bottom: 20px;
@@ -106,7 +106,7 @@
             box-sizing: border-box;
         }
 
-        #searchBar:focus {
+        #searchBar:focus, #orgSearchBar:focus {
             outline: none;
             border-color: var(--accent-color);
         }
@@ -393,7 +393,7 @@
             <div class="subheading" style="margin-bottom: 20px;">
                 <a onclick="toggleBubble('job-board')">← Back to Job Board</a>
             </div>
-            <input type="text" id="orgSearchBar" placeholder="Search for a company..." style="width: 100%; padding: 10px; margin-bottom: 20px; border: 1px solid #ddd; border-radius: 5px; font-family: Consolas, monospace; font-size: 10pt; box-sizing: border-box;">
+            <input type="text" id="orgSearchBar" placeholder="Search for a company...">
             <div id="org-list" class="job-list"></div>
         </div>
 
