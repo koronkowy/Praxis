@@ -1,24 +1,10 @@
 [
   {
-    "title": "Job Title of Not Evil Job",
-    "company": "Not Evil Company",
-    "status": "active",
-    "url": "https://ismtrainierout.com/",
-    "company_url": "https://ismtrainierout.com/",
-    "model": "Remote",
-    "listed_locations": "WA, Remote (US)",
-    "eligibility_regions": "US-All, US-West",
-    "post_date": "2026-11-08",
-    "deadline": "",
-    "needs_manual_check": false,
-    "last_manual_check": ""
-  },
-  {
     "title": "Manager, Individual Giving",
     "company": "Sanctuary For Families Inc.",
     "status": "active",
     "url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4619009",
-    "company_url": "",
+    "company_url": "https://sanctuaryforfamilies.org/",
     "listed_locations": "New York, NY",
     "eligibility_regions": "US-East",
     "model": "Hybrid",
