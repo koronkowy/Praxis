@@ -905,7 +905,7 @@
   {
     "companyName": "Free Geek",
     "companyWebsite": "https://freegeek.org",
-    "careersPage": "https://freegeek.org/careers",
+    "careersPage": "https://www.freegeek.org/join-our-team",
     "notes": "",
     "category": ""
   },
@@ -1641,6 +1641,69 @@
     "companyName": "United Electrical, Radio and Machine Workers of America (UE)",
     "companyWebsite": "https://www.ueunion.org",
     "careersPage": "https://www.ueunion.org/jobs",
+    "notes": "",
+    "category": ""
+  },
+  {
+    "companyName": "E2D (Eliminate the Digital Divide)",
+    "companyWebsite": "https://www.e-2-d.org/",
+    "careersPage": "",
+    "notes": "",
+    "category": ""
+  },
+  {
+    "companyName": "Through the Trees",
+    "companyWebsite": "https://throughthetrees.us",
+    "careersPage": "",
+    "notes": "",
+    "category": ""
+  },
+  {
+    "companyName": "Dottie Rose Foundation",
+    "companyWebsite": "https://dottierosefoundation.org",
+    "careersPage": "",
+    "notes": "",
+    "category": ""
+  },
+  {
+    "companyName": "Digi-Bridge",
+    "companyWebsite": "https://digi-bridge.org",
+    "careersPage": "",
+    "notes": "",
+    "category": ""
+  },
+  {
+    "companyName": "Crossroads Corporation / Grier Heights Community Center",
+    "companyWebsite": "https://www.crc-gh.org/",
+    "careersPage": "",
+    "notes": "",
+    "category": ""
+  },
+  {
+    "companyName": "Center for Digital Equity",
+    "companyWebsite": "https://centerfordigitalequity.org",
+    "careersPage": "",
+    "notes": "",
+    "category": ""
+  },
+  {
+    "companyName": "Safe Alliance",
+    "companyWebsite": "https://safealliance.org",
+    "careersPage": "",
+    "notes": "",
+    "category": ""
+  },
+  {
+    "companyName": "Camino",
+    "companyWebsite": "https://camino.org",
+    "careersPage": "",
+    "notes": "",
+    "category": ""
+  },
+  {
+    "companyName": "National Digital Inclusion Alliance (NDIA)",
+    "companyWebsite": "https://digitalinclusion.org",
+    "careersPage": "",
     "notes": "",
     "category": ""
   }
