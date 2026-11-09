@@ -200,14 +200,70 @@
         .container::-webkit-scrollbar {
             width: 0;
         }
+
+        .job-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            margin-top: 0px;
+        }
+
+        .job {
+            background: white;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ff69b4;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            word-wrap: break-word;
+        }
+
+        .job h2 {
+            margin: 0;
+            color: #ff69b4;
+            font-size: 1em;
+        }
+
+        .job p {
+            margin: 5px 0;
+            color: #0078D4;
+            font-size: 0.9em;
+        }
+
+        .job a {
+            color: #0078D4;
+            text-decoration: none;
+            word-wrap: break-word;
+        }
+
+        .job a:hover {
+            text-decoration: underline;
+        }
+
+        .category-label {
+            display: inline-block;
+            padding: 4px 8px;
+            border-radius: 5px;
+            font-size: 0.8em;
+            margin-top: 10px;
+            color: white;
+        }
+
+        .category-humanrights { background-color: blue; }
+        .category-tech { background-color: green; }
+        .category-defence { background-color: red; }
+        .category-recruiter { background-color: yellow; color: black; }
+        .category-nonprofit { background-color: purple; color: white; }
+        .category-portfolio { background-color: #0dc4af; color: white; }
     </style>
+
 </head>
 <body>
 
     <div class="container">
         <h1>Praxis</h1>
         <div class="subheading">
-            Threaty: A Not Evil Job Board | 
+            Praxis: A Not Evil Job Board |
             <a onclick="toggleBubble('submit-bubble')">[ Submit Role ]</a> • 
             <a onclick="toggleBubble('about-bubble')">[ About Board ]</a> • 
             <a onclick="toggleBubble('guide-bubble')">[ Usage Guide ]</a> •
@@ -227,7 +283,7 @@
     <p style="margin-top: 0;">To add new roles to the board, follow these steps:</p>
     
     <ul style="margin-top: 10px; padding-left: 20px;">
-        <li style="margin-bottom: 8px;"><strong>Open an Issue:</strong> Navigate to our <a href="https://github.com/koronkowy/Threaty/issues" target="_blank" style="color: #0078D4; text-decoration: none;">GitHub Issues tab</a> and click "New issue."</li>
+        <li style="margin-bottom: 8px;"><strong>Open an Issue:</strong> Navigate to our <a href="https://github.com/koronkowy/Praxis/issues" target="_blank" style="color: #0078D4; text-decoration: none;">GitHub Issues tab</a> and click "New issue."</li>
         <li style="margin-bottom: 8px;"><strong>Batch Your URLs:</strong> Paste the direct URLs of the job postings into the issue body. (Please use <em>one URL per line</em>).</li>
         <li style="margin-bottom: 8px;"><strong>Wait for Review:</strong> A maintainer will manually review your links. If they fit the board's strict scope, the maintainer will apply the <code>job-submission</code> label.</li>
         <li style="margin-bottom: 8px;"><strong>Automated Parsing:</strong> That label triggers our background "Data Clerk" to scrape the listings and generate the necessary data.</li>
@@ -241,7 +297,7 @@
         <a class="close-bubble" onclick="toggleBubble('about-bubble')">[ Hide ]</a>
     </div>
     <p>
-        TBD
+        Praxis is a curated, minimalist job board designed to filter out ethically compromised and standard corporate noise. It isolates roles specifically within human rights advocacy, public interest technology, labor organizing, and vetted progressive impact work.
     </p>
 
     <div class="credits" style="margin-top: 15px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;">
@@ -265,39 +321,62 @@
             <p>Use the global keyboard matching engine below to scan companies, roles, or targeted countries. The listed locations prioritize precise hubs, while the sub-metadata paths define authorization scopes. Dead roles can be isolated via the visibility toggle switch.</p>
         </div>
 
-        <input type="text" id="searchBar" placeholder="Search by title, company, region, corridor acronym, or specific suburb..." oninput="renderBoard()">
+        <div id="job-board-view">
+            <input type="text" id="searchBar" placeholder="Search by title, company, region, corridor acronym, or specific suburb..." oninput="renderBoard()">
 
-        <div class="meta-actions-row">
-            <div id="matchCounter" class="result-counter">Showing 0 positions</div>
-            <label class="toggle-label">
-                <input type="checkbox" id="hideExpired" onchange="renderBoard()"> Hide expired roles
-            </label>
+            <div class="meta-actions-row">
+                <div id="matchCounter" class="result-counter">Showing 0 positions</div>
+                <label class="toggle-label">
+                    <input type="checkbox" id="hideExpired" onchange="renderBoard()"> Hide expired roles
+                </label>
+            </div>
+
+            <div class="table-wrapper">
+                <table class="job-table">
+                    <thead>
+                        <tr>
+                            <th style="padding-left: 0;">Role / Company</th>
+                            <th>Model</th>
+                            <th>Regions</th>
+                            <th>Recency</th>
+                            <th>Deadline</th>
+                        </tr>
+                    </thead>
+                    <tbody id="jobTableBody"></tbody>
+                </table>
+            </div>
         </div>
 
-        <div class="table-wrapper">
-            <table class="job-table">
-                <thead>
-                    <tr>
-                        <th style="padding-left: 0;">Role / Company</th>
-                        <th>Model</th>
-                        <th>Regions</th>
-                        <th>Recency</th>
-                        <th>Deadline</th>
-                    </tr>
-                </thead>
-                <tbody id="jobTableBody"></tbody>
-            </table>
+        <div id="orgs-view" style="display: none;">
+            <div class="subheading" style="margin-bottom: 20px;">
+                <a onclick="toggleBubble('job-board')">← Back to Job Board</a>
+            </div>
+            <input type="text" id="orgSearchBar" placeholder="Search for a company..." style="width: 100%; padding: 10px; margin-bottom: 20px; border: 1px solid #ddd; border-radius: 5px; font-family: Consolas, monospace; font-size: 10pt; box-sizing: border-box;">
+            <div id="org-list" class="job-list"></div>
         </div>
+
     </div>
 
     <script>
         const SYSTEM_TODAY = new Date("2026-05-22");
         let masterDatabase = [];
 
+
         function toggleBubble(bubbleId) {
+            if (bubbleId === 'orgs-bubble') {
+                document.getElementById('job-board-view').style.display = 'none';
+                document.getElementById('orgs-view').style.display = 'block';
+                return;
+            } else if (bubbleId === 'job-board') {
+                document.getElementById('orgs-view').style.display = 'none';
+                document.getElementById('job-board-view').style.display = 'block';
+                return;
+            }
+
+            // Restore original behavior for other bubbles
             const el = document.getElementById(bubbleId);
             const targets = ['submit-bubble', 'about-bubble', 'guide-bubble'];
-            targets.forEach(t => { if (t !== bubbleId) document.getElementById(t).style.display = 'none'; });
+            targets.forEach(t => { if (t !== bubbleId && document.getElementById(t)) document.getElementById(t).style.display = 'none'; });
             el.style.display = (el.style.display === 'block') ? 'none' : 'block';
         }
 
@@ -437,6 +516,53 @@
 }
 
         fetchProductionDatabase();
+
+        document.addEventListener('DOMContentLoaded', () => {
+            let allOrgs = [];
+
+            fetch('orgs.json')
+                .then(response => response.json())
+                .then(data => {
+                    allOrgs = data;
+                    renderOrgs(allOrgs);
+                })
+                .catch(error => console.error('Error loading orgs:', error));
+
+            function renderOrgs(orgs) {
+                const orgsList = document.getElementById('org-list');
+                if(!orgsList) return;
+                orgsList.innerHTML = '';
+                orgs.forEach(org => {
+                    const orgDiv = document.createElement('div');
+                    orgDiv.className = 'job';
+
+                    const categoryLabels = org.category.split(',').map(category => {
+                        const categoryClass = `category-${category.trim().toLowerCase().replace(/\s+/g, '')}`;
+                        return `<span class="category-label ${categoryClass}">${category.trim()}</span>`;
+                    }).join(' ');
+
+                    orgDiv.innerHTML = `
+                        <h2>${org.companyName}</h2>
+                        <p><strong>Website:</strong> <a href="${org.companyWebsite}" target="_blank">${org.companyWebsite}</a></p>
+                        <p><strong>Careers Page:</strong> <a href="${org.careersPage}" target="_blank">Apply Here</a></p>
+                        ${org.notes ? `<p><strong>Notes:</strong> ${org.notes}</p>` : ''}
+                        ${categoryLabels}
+                    `;
+                    orgsList.appendChild(orgDiv);
+                });
+            }
+
+            const orgSearchBar = document.getElementById('orgSearchBar');
+            if(orgSearchBar) {
+                orgSearchBar.addEventListener('input', (event) => {
+                    const query = event.target.value.toLowerCase();
+                    const filteredOrgs = allOrgs.filter(org =>
+                        org.companyName.toLowerCase().includes(query)
+                    );
+                    renderOrgs(filteredOrgs);
+                });
+            }
+        });
     </script>
 </body>
 </html>
