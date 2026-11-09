@@ -1,0 +1,46 @@
+name: Daily Job Health Check
+on:
+  schedule:
+    - cron: '0 0 * * *' # Runs at midnight UTC every day
+  workflow_dispatch: # Allows you to run it manually
+
+env:
+  ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
+  NODE_OPTIONS: "--no-deprecation"
+
+jobs:
+  health-check:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      # 1. Install necessary dependencies
+      - name: Install Dependencies
+        run: |
+          pip install requests beautifulsoup4
+
+      # 2. Run the health check script
+      - name: Run Health Check
+        run: |
+          python3 health_check.py
+
+      # 3. Commit & Push only if changes were detected
+      - name: Commit & Push Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add jobs.json api_errors_log.json badge_429.json badge_503.json
+          # Check if there are changes to commit
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: automated job health check & API rate limit monitor decay"
+            git push
+          else
+            echo "No changes detected, skipping commit."
+          fi

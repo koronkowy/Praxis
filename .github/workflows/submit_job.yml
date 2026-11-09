@@ -1,0 +1,129 @@
+name: Job Submission Ingestion
+on:
+  issues:
+    types: [labeled]
+
+concurrency:
+  group: job-submission-pipeline
+  cancel-in-progress: false
+
+env:
+  ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
+  NODE_OPTIONS: "--no-deprecation"
+
+jobs:
+  ingest-job:
+    if: contains(github.event.issue.labels.*.name, 'job-submission')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+      issues: write
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+          
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4 google-genai
+        
+      - name: Run Data Clerk Parser
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        # We redirect output to a log file so we can parse it later
+        run: |
+          python3 parser.py "${{ github.event.issue.body }}" > run.log
+          cat run.log
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          commit-message: "Feat: Add batch jobs from Issue #${{ github.event.issue.number }}"
+          title: "Review: Batch Job Submission #${{ github.event.issue.number }}"
+          body: "Automated ingestion from Issue #${{ github.event.issue.number }}. Please review the updated jobs.json."
+          branch: "add-job-${{ github.event.issue.number }}"
+          add-paths: |
+            jobs.json
+            api_errors_log.json
+            badge_429.json
+            badge_503.json
+          assignees: koronkowy
+          
+      - name: Comment on Issue
+        if: always() # Ensures this runs even if the parser or PR creation has issues
+        run: |
+          # Use sed to extract lines between our custom markers
+          DUPLICATES=$(sed -n '/DUPLICATE_URLS_START/,/DUPLICATE_URLS_END/p' run.log | sed '1d;$d')
+          DEAD_LINKS=$(sed -n '/DEAD_LINK_URLS_START/,/DEAD_LINK_URLS_END/p' run.log | sed '1d;$d')
+          TIMEOUTS=$(sed -n '/TIMEOUT_URLS_START/,/TIMEOUT_URLS_END/p' run.log | sed '1d;$d')
+          API_ERRORS=$(sed -n '/API_ERROR_URLS_START/,/API_ERROR_URLS_END/p' run.log | sed '1d;$d')
+          JSON_ERRORS=$(sed -n '/JSON_ERROR_URLS_START/,/JSON_ERROR_URLS_END/p' run.log | sed '1d;$d')
+          MANUAL_CHECK_ERRORS=$(sed -n '/MANUAL_CHECK_REQUIRED_URLS_START/,/MANUAL_CHECK_REQUIRED_URLS_END/p' run.log | sed '1d;$d')
+          OTHER_ERRORS=$(sed -n '/OTHER_URLS_START/,/OTHER_URLS_END/p' run.log | sed '1d;$d')
+          SHELVED=$(sed -n '/SHELVED_URLS_START/,/SHELVED_URLS_END/p' run.log | sed '1d;$d')
+          
+          COMMENT="Batch processing complete! The successful jobs are in the Pull Request below."
+          HAS_ERRORS=false
+
+          # Initialize ERROR_DETAILS using printf to properly interpret \n
+          printf -v ERROR_DETAILS ""
+
+          if [ ! -z "$DUPLICATES" ]; then
+            HAS_ERRORS=true
+            printf -v ADDITION "\n\n**Duplicates (Skipped):**\n%s" "$DUPLICATES"
+            ERROR_DETAILS="${ERROR_DETAILS}${ADDITION}"
+          fi
+
+          if [ ! -z "$DEAD_LINKS" ]; then
+            HAS_ERRORS=true
+            printf -v ADDITION "\n\n**hey these jobs didn't appear to still be jobs because when we went to the link it didn't work:**\n%s" "$DEAD_LINKS"
+            ERROR_DETAILS="${ERROR_DETAILS}${ADDITION}"
+          fi
+
+          if [ ! -z "$TIMEOUTS" ]; then
+            HAS_ERRORS=true
+            printf -v ADDITION "\n\n**Failed due to Timeouts:**\n%s" "$TIMEOUTS"
+            ERROR_DETAILS="${ERROR_DETAILS}${ADDITION}"
+          fi
+
+          if [ ! -z "$API_ERRORS" ]; then
+            HAS_ERRORS=true
+            printf -v ADDITION "\n\n**Failed due to Gemini API Errors (e.g. Model Busy, Rate Limit):**\n%s" "$API_ERRORS"
+            ERROR_DETAILS="${ERROR_DETAILS}${ADDITION}"
+          fi
+
+          if [ ! -z "$JSON_ERRORS" ]; then
+            HAS_ERRORS=true
+            printf -v ADDITION "\n\n**Failed due to Malformed JSON from AI:**\n%s" "$JSON_ERRORS"
+            ERROR_DETAILS="${ERROR_DETAILS}${ADDITION}"
+          fi
+
+          if [ ! -z "$MANUAL_CHECK_ERRORS" ]; then
+            HAS_ERRORS=true
+            printf -v ADDITION "\n\n**Failed due to Suspiciously Short Text (Manual Check Required):**\n%s" "$MANUAL_CHECK_ERRORS"
+            ERROR_DETAILS="${ERROR_DETAILS}${ADDITION}"
+          fi
+
+          if [ ! -z "$OTHER_ERRORS" ]; then
+            HAS_ERRORS=true
+            printf -v ADDITION "\n\n**Failed due to Other Errors (e.g. Scraping Failed):**\n%s" "$OTHER_ERRORS"
+            ERROR_DETAILS="${ERROR_DETAILS}${ADDITION}"
+          fi
+
+          if [ ! -z "$SHELVED" ]; then
+            HAS_ERRORS=true
+            printf -v ADDITION "\n\n**Shelved (these were not parsed due to failures, please try parsing another time):**\n%s" "$SHELVED"
+            ERROR_DETAILS="${ERROR_DETAILS}${ADDITION}"
+          fi
+
+          if [ "$HAS_ERRORS" = true ]; then
+             printf -v COMMENT "⚠️ Batch processing complete, but some jobs had issues:%s\n\nPlease check these links manually and submit them again if needed. The successful jobs are in the Pull Request below." "$ERROR_DETAILS"
+          fi
+          
+          gh issue comment ${{ github.event.issue.number }} --body "$COMMENT"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
