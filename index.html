@@ -6,21 +6,21 @@
     <title>Praxis: A Not Evil Job Board</title>
     <style>
         :root {
-            --bg-color: #121212;
-            --container-bg: #1e1e1e;
-            --container-border: #3794FF;
-            --accent-color: #3794FF;
-            --text-primary: #E0E0E0;
-            --text-heading: #FFFFFF;
-            --link-color: #4D90FE;
-            --input-bg: #121212;
-            --input-border: #333333;
-            --bubble-bg: #1e1e1e;
-            --table-header-bg: #1e1e1e;
-            --table-border: #333333;
-            --row-hover: #2a2a2a;
-            --secondary-text: #AAAAAA;
-            --job-bg: #1e1e1e;
+            --bg-color: #313338;
+            --container-bg: #2B2D31;
+            --container-border: #1E1F22;
+            --accent-color: #5865F2;
+            --text-primary: #F2F3F5;
+            --text-heading: #F2F3F5;
+            --link-color: #5865F2;
+            --input-bg: #313338;
+            --input-border: #1E1F22;
+            --bubble-bg: #2B2D31;
+            --table-header-bg: #2B2D31;
+            --table-border: #1E1F22;
+            --row-hover: #1E1F22;
+            --secondary-text: #B5BAC1;
+            --job-bg: #2B2D31;
         }
 
         [data-theme="light"] {
@@ -60,7 +60,7 @@
             max-width: 1050px;
             max-height: 80vh;
             background-color: var(--container-bg);
-            border: 2px solid var(--container-border);
+            border: 1px solid var(--container-border);
             border-radius: 10px;
             padding: 20px;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -201,7 +201,7 @@
         }
 
         .company-link {
-            color: var(--link-color);
+            color: var(--text-primary);
             text-decoration: none;
             font-size: 0.9em;
             display: block;
@@ -213,7 +213,7 @@
         }
 
         .location-city {
-            color: var(--text-primary);
+            color: var(--secondary-text);
             font-weight: bold;
         }
 
@@ -223,8 +223,8 @@
             margin-top: 2px;
         }
 
-        .text-blue {
-            color: var(--link-color);
+        .text-secondary {
+            color: var(--secondary-text);
         }
 
         .status-expired {
@@ -253,7 +253,7 @@
             background: var(--job-bg);
             padding: 10px;
             border-radius: 5px;
-            border: 1px solid var(--accent-color);
+            border: 1px solid var(--container-border);
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
             text-align: center;
             word-wrap: break-word;
@@ -261,13 +261,13 @@
 
         .job h2 {
             margin: 0;
-            color: var(--accent-color);
+            color: var(--text-primary);
             font-size: 1em;
         }
 
         .job p {
             margin: 5px 0;
-            color: var(--link-color);
+            color: var(--text-primary);
             font-size: 0.9em;
         }
 
@@ -562,13 +562,13 @@
                 <a href="${role.url}" class="job-title ${role.status === 'expired' ? 'status-expired' : ''}" target="_blank">${role.title}</a>
                 <a href="${role.company_url || '#'}" class="company-link" target="_blank">${role.company} ↗</a>
             </td>
-            <td class="text-blue">${role.model}</td>
+            <td class="text-secondary">${role.model}</td>
             <td>
                 <div class="location-city">${role.listed_locations}</div>
                 <div class="location-region">${role.eligibility_regions}</div>
             </td>
-            <td class="${role.needs_manual_check ? '' : 'text-blue'}" style="${role.needs_manual_check ? 'color: red;' : ''}">${role.post_date}</td>
-            <td class="${role.status === 'expired' ? 'status-expired' : 'text-blue'}" style="text-align: center;">
+            <td class="${role.needs_manual_check ? '' : 'text-secondary'}" style="${role.needs_manual_check ? 'color: red;' : ''}">${role.post_date}</td>
+            <td class="${role.status === 'expired' ? 'status-expired' : 'text-secondary'}" style="text-align: center;">
     ${role.deadline === 'Expired' ? 'Expired' : (role.deadline || '—')}
 </td>
         `;
