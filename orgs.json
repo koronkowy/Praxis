@@ -102,14 +102,14 @@
     "companyWebsite": "https://srlp.org",
     "careersPage": "https://srlp.org/about/jobs-internships/",
     "notes": "Provides free legal services to low-income individuals and people of color who are transgender, intersex, or gender non-conforming.",
-    "category": "Law, LGBTQIA+, Equality"
+    "category": "Law, LGBTQIA+, Equality, Diaspora"
   },
   {
     "companyName": "Black Trans Advocacy Coalition (BTAC)",
     "companyWebsite": "https://blacktrans.org",
     "careersPage": "",
     "notes": "A national organization led by Black trans people addressing health, housing, and employment inequalities.",
-    "category": "LGBTQIA+, Health, Housing, Labor, Equality"
+    "category": "LGBTQIA+, Health, Housing, Labor, Equality, Diaspora"
   },
   {
     "companyName": "Transgender Legal Defense & Education Fund (TLDEF)",
@@ -130,70 +130,70 @@
     "companyWebsite": "https://m4bl.org",
     "careersPage": "https://m4bl.org/join-us/",
     "notes": "A massive, abolitionist coalition of organizations spanning the country, focusing on policy, mutual aid, and direct action.",
-    "category": "Political"
+    "category": "Political, Diaspora"
   },
   {
     "companyName": "Dream Defenders",
     "companyWebsite": "https://dreamdefenders.org",
     "careersPage": "",
     "notes": "A radical youth-led organization primarily based in Florida organizing against police violence, prisons, and the corporate backing of carceral systems.",
-    "category": "Political, Law, Children"
+    "category": "Political, Law, Children, Diaspora"
   },
   {
     "companyName": "Blackout Collective",
     "companyWebsite": "https://blackoutcollective.org",
     "careersPage": "",
     "notes": "A Black direct-action training and support organization that helps organizers execute on-the-ground protests and blockades.",
-    "category": "Political"
+    "category": "Political, Diaspora"
   },
   {
     "companyName": "Black Youth Project 100 (BYP100)",
     "companyWebsite": "https://byp100.org",
     "careersPage": "https://www.byp100.org/careers",
     "notes": "A member-based organization of Black youth activists creating justice and freedom through a Black, queer, feminist lens.",
-    "category": "Political, Children, LGBTQIA+, Equality"
+    "category": "Political, Children, LGBTQIA+, Equality, Diaspora"
   },
   {
     "companyName": "Assata’s Daughters",
     "companyWebsite": "https://assatasdaughters.org",
     "careersPage": "https://www.assatasdaughters.org/apply-1",
     "notes": "A Chicago-based grassroots abolitionist organization providing political education and organizing spaces for young Black people.",
-    "category": "Children, Political, Law"
+    "category": "Children, Political, Law, Diaspora"
   },
   {
     "companyName": "Mijente",
     "companyWebsite": "https://mijente.net",
     "careersPage": "",
     "notes": "A digital and grassroots hub for Latinx and Chicanx organizing, highly active in \"No Tech for ICE\" campaigns and anti-deportation defense.",
-    "category": "Immigration, Tech, Political, Equality"
+    "category": "Immigration, Tech, Political, Equality, Diaspora"
   },
   {
     "companyName": "Make the Road",
     "companyWebsite": "https://maketheroadny.org",
     "careersPage": "https://maketheroadny.org/join-our-team/",
     "notes": "A massive, working-class grassroots organization fighting for immigrant, housing, and labor rights.",
-    "category": "Immigration, Housing, Labor"
+    "category": "Immigration, Housing, Labor, Diaspora"
   },
   {
     "companyName": "Puente Human Rights Movement",
     "companyWebsite": "https://puenteaz.org",
     "careersPage": "",
     "notes": "A grassroots migrant justice organization based in Arizona fighting for the abolition of ICE and the empowerment of undocumented people.",
-    "category": "Immigration, Political, Equality"
+    "category": "Immigration, Political, Equality, Diaspora"
   },
   {
     "companyName": "United We Dream",
     "companyWebsite": "https://unitedwedream.org",
     "careersPage": "https://unitedwedream.org/who-we-are/careers/",
     "notes": "The largest immigrant youth-led network in the country, fighting for permanent protection for undocumented immigrants and an end to deportations.",
-    "category": "Immigration, Children"
+    "category": "Immigration, Children, Diaspora"
   },
   {
     "companyName": "Al Otro Lado",
     "companyWebsite": "https://alotrolado.org",
     "careersPage": "https://www.alotrolado.org/internships",
     "notes": "A bi-national direct legal and humanitarian support organization serving refugees, deportees, and migrants at the US-Mexico border.",
-    "category": "Immigration, Law, Humanitarian"
+    "category": "Immigration, Law, Humanitarian, Diaspora"
   },
   {
     "companyName": "Detention Watch Network",
@@ -228,35 +228,35 @@
     "companyWebsite": "https://mpowerchange.org",
     "careersPage": "https://www.mpowerchange.org/careers",
     "notes": "A grassroots Muslim organizing network fighting for racial, economic, and social justice, and aggressively campaigning against the War on Terror and state surveillance.",
-    "category": "Political, Humanitarian, Equality"
+    "category": "Political, Humanitarian, Equality, Diaspora"
   },
   {
     "companyName": "Believers Bail Out",
     "companyWebsite": "https://believersbailout.org",
     "careersPage": "https://believersbailout.org/hiring/",
     "notes": "A community-led effort to bail out Muslims in pretrial incarceration and ICE custody as a form of Zakat (charity).",
-    "category": "Law, Immigration, Equality"
+    "category": "Law, Immigration, Equality, Diaspora"
   },
   {
     "companyName": "Muslim Advocates",
     "companyWebsite": "https://muslimadvocates.org",
     "careersPage": "https://muslimadvocates.org/about/careers/",
     "notes": "A national legal advocacy and educational organization that fights against anti-Muslim bigotry, surveillance, and discrimination in the courts.",
-    "category": "Law, Political, Equality"
+    "category": "Law, Political, Equality, Diaspora"
   },
   {
     "companyName": "Arab American Action Network (AAAN)",
     "companyWebsite": "https://aaan.org",
     "careersPage": "",
     "notes": "Organizes extensively in Muslim communities around immigrant rights, anti-surveillance, and racial justice.",
-    "category": "Immigration, Tech, Political, Equality"
+    "category": "Immigration, Tech, Political, Equality, Diaspora"
   },
   {
     "companyName": "Audre Lorde Project",
     "companyWebsite": "https://alp.org",
     "careersPage": "",
     "notes": "A community organizing center for Lesbian, Gay, Bisexual, Two Spirit, Trans and Gender Non-Conforming People of Color, focused on mobilization and community wellness.",
-    "category": "LGBTQIA+, Health, Political, Equality"
+    "category": "LGBTQIA+, Health, Political, Equality, Diaspora"
   },
   {
     "companyName": "Lambda Legal",
@@ -298,14 +298,14 @@
     "companyWebsite": "https://sinsinvalid.org",
     "careersPage": "",
     "notes": "A disability justice-based performance project offering deep political education on the intersection of disability and capitalism.",
-    "category": "Health, Political, Equality"
+    "category": "Health, Political, Equality, Diaspora"
   },
   {
     "companyName": "HEARD (Helping Educate to Advance the Rights of Deaf Communities)",
     "companyWebsite": "https://behearddc.org",
     "careersPage": "https://behearddc.org/opportunity/",
     "notes": "An abolitionist organization working to end ableism, racism, and language deprivation within the carceral system.",
-    "category": "Health, Law, Equality"
+    "category": "Health, Law, Equality, Diaspora"
   },
   {
     "companyName": "Center for Disability Rights (CDR)",
@@ -319,7 +319,7 @@
     "companyWebsite": "https://abdulformichigan.com",
     "careersPage": "https://abdulforsenate.com/jobs/",
     "notes": "Progressive public health advocate running for U.S. Senate in Michigan.",
-    "category": "Political, Health"
+    "category": "Political, Health, Diaspora"
   },
   {
     "companyName": "Chris Rabb",
@@ -389,14 +389,14 @@
     "companyWebsite": "https://dair-institute.org",
     "careersPage": "https://dair-institute.org/careers/",
     "notes": "Centers marginalized communities in AI research and fiercely critiques the labor and environmental exploitation of large tech companies.",
-    "category": "Tech, Labor, Environmental, Equality"
+    "category": "Tech, Labor, Environmental, Equality, Diaspora"
   },
   {
     "companyName": "Algorithmic Justice League (AJL)",
     "companyWebsite": "https://ajl.org",
     "careersPage": "",
     "notes": "Focusing heavily on the social implications and harms of AI, specifically facial recognition, racial bias, and state surveillance.",
-    "category": "Tech, Law, Equality"
+    "category": "Tech, Law, Equality, Diaspora"
   },
   {
     "companyName": "Fight for the Future",
@@ -459,7 +459,7 @@
     "companyWebsite": "https://upturn.org",
     "careersPage": "https://www.upturn.org/join/",
     "notes": "Excellent tech-justice organization that actively investigates and pushes back against police use of technology, algorithms in the carceral system, and systemic racism in tech.",
-    "category": "Tech, Law, Equality"
+    "category": "Tech, Law, Equality, Diaspora"
   },
   {
     "companyName": "The Movement Cooperative",
@@ -473,14 +473,14 @@
     "companyWebsite": "https://systemicjustice.ngo",
     "careersPage": "https://systemicjustice.ngo/join-us/",
     "notes": "European NGO partnering with communities resisting racial, social, and economic injustice to bring strategic litigation.",
-    "category": "Law, Equality"
+    "category": "Law, Equality, Diaspora"
   },
   {
     "companyName": "MediaJustice",
     "companyWebsite": "https://mediajustice.org",
     "careersPage": "https://mediajustice.org/careers/",
     "notes": "Fights for racial and economic equity in a digital age, focusing heavily on ending high-tech policing and surveillance in communities of color.",
-    "category": "Tech, Law, Equality"
+    "category": "Tech, Law, Equality, Diaspora"
   },
   {
     "companyName": "Check My Ads",
@@ -515,7 +515,7 @@
     "companyWebsite": "https://prismreports.org",
     "careersPage": "",
     "notes": "An independent, non-profit newsroom led by journalists of color, explicitly centering the voices of marginalized people.",
-    "category": "Political, Equality"
+    "category": "Political, Equality, Diaspora"
   },
   {
     "companyName": "The Marshall Project",
@@ -571,21 +571,21 @@
     "companyWebsite": "https://ainowinstitute.org",
     "careersPage": "https://ainowinstitute.org/careers",
     "notes": "A leading research organization confronting the social implications of artificial intelligence, specifically focusing on how AI exacerbates inequality, systemic racism, and labor exploitation.",
-    "category": "Tech, Labor, Equality"
+    "category": "Tech, Labor, Equality, Diaspora"
   },
   {
     "companyName": "UCLA Center for Critical Internet Inquiry (C2i2)",
     "companyWebsite": "https://c2i2.ucla.edu",
     "careersPage": "",
     "notes": "Deeply explores the intersection of racial justice, technology, and systemic inequality, challenging the myth of tech neutrality.",
-    "category": "Tech, Equality"
+    "category": "Tech, Equality, Diaspora"
   },
   {
     "companyName": "Data for Black Lives (D4BL)",
     "companyWebsite": "https://d4bl.org",
     "careersPage": "",
     "notes": "A movement of activists, organizers, and mathematicians committed to using data to create concrete and measurable change in the lives of Black people.",
-    "category": "Tech, Equality"
+    "category": "Tech, Equality, Diaspora"
   },
   {
     "companyName": "Common Cause",
@@ -613,7 +613,7 @@
     "companyWebsite": "https://demos.org",
     "careersPage": "https://www.demos.org/about/careers",
     "notes": "A dynamic \"think-and-do\" tank that partners directly with grassroots organizers to fight for economic justice, voting rights, and a multiracial democracy.",
-    "category": "Political, Equality"
+    "category": "Political, Equality, Diaspora"
   },
   {
     "companyName": "Democracy Fund",
@@ -662,7 +662,7 @@
     "companyWebsite": "https://criticalracedigitalstudies.com",
     "careersPage": "",
     "notes": "A vital academic network that explicitly studies how technology, algorithms, and digital media intersect with and exacerbate systemic racism.",
-    "category": "Tech, Equality"
+    "category": "Tech, Equality, Diaspora"
   },
   {
     "companyName": "Center for an Informed Public (University of Washington)",
@@ -844,7 +844,7 @@
     "companyWebsite": "https://blackfoodjustice.org",
     "careersPage": "",
     "notes": "A vast coalition of Black urban and rural farmers, land stewards, and organizers working to reclaim Black land and build collective food sovereignty.",
-    "category": "Environmental, Equality"
+    "category": "Environmental, Equality, Diaspora"
   },
   {
     "companyName": "HEAL Food Alliance",
@@ -865,7 +865,7 @@
     "companyWebsite": "https://soulfirefarm.org",
     "careersPage": "https://www.soulfirefarm.org/about/employment/",
     "notes": "An Afro-Indigenous centered community farm committed to uprooting racism and seeding sovereignty in the food system.",
-    "category": "Indigenous, Environmental, Equality"
+    "category": "Indigenous, Environmental, Equality, Diaspora"
   },
   {
     "companyName": "Footsteps",
@@ -921,35 +921,35 @@
     "companyWebsite": "https://antipoliceterrorproject.org",
     "careersPage": "https://www.antipoliceterrorproject.org/jobs",
     "notes": "A Black-led coalition based in Oakland pioneering highly successful, community-led alternatives to policing and crisis response.",
-    "category": "Law, Health"
+    "category": "Law, Health, Diaspora"
   },
   {
     "companyName": "PCUN (Pineros y Campesinos Unidos del Noroeste)",
     "companyWebsite": "https://pcun.org",
     "careersPage": "",
     "notes": "Oregon's massive farmworker union heavily involved in labor strikes, climate justice for outdoor workers, and immigrant defense.",
-    "category": "Labor, Environmental, Immigration"
+    "category": "Labor, Environmental, Immigration, Diaspora"
   },
   {
     "companyName": "Got Green",
     "companyWebsite": "https://gotgreenseattle.org",
     "careersPage": "",
     "notes": "A grassroots environmental justice organization led by people of color and working-class organizers focusing heavily on climate resilience and anti-gentrification.",
-    "category": "Environmental, Housing, Equality"
+    "category": "Environmental, Housing, Equality, Diaspora"
   },
   {
     "companyName": "Native Movement",
     "companyWebsite": "https://nativemovement.org",
     "careersPage": "https://nativemovement.recruitee.com/",
     "notes": "Indigenous-led organizing focusing on environmental justice, untangling colonial systems, and fighting massive fossil fuel extraction projects in the Arctic.",
-    "category": "Indigenous, Environmental"
+    "category": "Indigenous, Environmental, Diaspora"
   },
   {
     "companyName": "KAHEA: The Hawaiian-Environmental Alliance",
     "companyWebsite": "https://kahea.org",
     "careersPage": "",
     "notes": "A grassroots network of Native Hawaiian activists fighting to protect sacred lands from militarism, imperialism, and unchecked development.",
-    "category": "Indigenous, Environmental"
+    "category": "Indigenous, Environmental, Diaspora"
   },
   {
     "companyName": "Culinary Workers Union Local 226",
@@ -991,7 +991,7 @@
     "companyWebsite": "https://www.crc-gh.org/",
     "careersPage": "",
     "notes": "A community defense and revitalization organization focused heavily on preserving the history and supporting the residents of historically Black neighborhoods in Charlotte against systemic neglect.",
-    "category": "Housing, Equality"
+    "category": "Housing, Equality, Diaspora"
   },
   {
     "companyName": "Center for Digital Equity",
@@ -1012,7 +1012,7 @@
     "companyWebsite": "https://camino.org",
     "careersPage": "",
     "notes": "A highly effective bilingual and multicultural health center in Charlotte providing direct primary care, behavioral therapy, and upward mobility support to low-income Latino families.",
-    "category": "Health, Equality"
+    "category": "Health, Equality, Diaspora"
   },
   {
     "companyName": "National Digital Inclusion Alliance (NDIA)",
@@ -1054,7 +1054,7 @@
     "companyWebsite": "https://layc-dc.org",
     "careersPage": "https://www.layc-dc.org/careers",
     "notes": "A regional community organization providing educational, housing, and mental health support to low-income Black and Latino youth in the DC area.",
-    "category": "Children, Housing, Health, Equality"
+    "category": "Children, Housing, Health, Equality, Diaspora"
   },
   {
     "companyName": "GENDES",
@@ -1096,7 +1096,7 @@
     "companyWebsite": "https://en.arij.net",
     "careersPage": "",
     "notes": "The premier non-profit dedicated to supporting independent investigative journalism, fact-checking, and accountability across the MENA region.",
-    "category": "Political"
+    "category": "Political, Diaspora"
   },
   {
     "companyName": "Media Institute of Southern Africa (MISA)",
@@ -1152,7 +1152,7 @@
     "companyWebsite": "https://sembramedia.org",
     "careersPage": "",
     "notes": "A non-profit dedicated to helping independent digital media in Latin America and Spain become financially sustainable so they don't have to rely on corporate monopolies.",
-    "category": "Tech, Funding"
+    "category": "Tech, Funding, Diaspora"
   },
   {
     "companyName": "Reporters Sans Frontières (RSF)",
@@ -1215,7 +1215,7 @@
     "companyWebsite": "https://idepsca.org",
     "careersPage": "",
     "notes": "A grassroots powerhouse organizing day laborers, domestic workers, and low-income immigrants in Los Angeles through mutual aid, wage-theft defense, and popular education.",
-    "category": "Labor, Law, Immigration"
+    "category": "Labor, Law, Immigration, Diaspora"
   },
   {
     "companyName": "Eastside LEADS",
@@ -1229,14 +1229,14 @@
     "companyWebsite": "https://ccejn.org",
     "careersPage": "",
     "notes": "A grassroots network empowering rural, working-class, and immigrant communities to fight back against corporate agricultural pollution and fossil fuel extraction.",
-    "category": "Environmental, Political"
+    "category": "Environmental, Political, Diaspora"
   },
   {
     "companyName": "MediaJustice",
     "companyWebsite": "https://mediajustice.org",
     "careersPage": "",
     "notes": "Fights for racial and economic equity in a digital age, focusing heavily on ending high-tech policing, algorithmic bias, and state surveillance in communities of color.",
-    "category": "Tech, Law, Equality"
+    "category": "Tech, Law, Equality, Diaspora"
   },
   {
     "companyName": "Mozilla",
@@ -1278,21 +1278,21 @@
     "companyWebsite": "https://ajsocal.org",
     "careersPage": "",
     "notes": "A leading civil rights and legal advocacy organization providing direct legal services, immigrant defense, and grassroots organizing power.",
-    "category": "Law, Immigration, Equality"
+    "category": "Law, Immigration, Equality, Diaspora"
   },
   {
     "companyName": "The CROWN Coalition",
     "companyWebsite": "https://thecrownact.com",
     "careersPage": "",
     "notes": "The official campaign fighting to legally ban race-based hair discrimination (targeting natural hair, braids, locs, twists) in workplaces and public schools.",
-    "category": "Law, Equality"
+    "category": "Law, Equality, Diaspora"
   },
   {
     "companyName": "National Black Justice Coalition (NBJC)",
     "companyWebsite": "https://nbjc.org",
     "careersPage": "",
     "notes": "A civil rights organization that heavily advocates for bodily autonomy and pushes against corporate dress codes discriminating against Black cultural expression.",
-    "category": "Equality, Law, Labor"
+    "category": "Equality, Law, Labor, Diaspora"
   },
   {
     "companyName": "Chicago Teachers Union (CTU)",
@@ -1376,7 +1376,7 @@
     "companyWebsite": "https://disinfodefenseleague.org",
     "careersPage": "",
     "notes": "A distributed network disrupting online disinformation campaigns that specifically target Black, Latinx, Asian American, and Indigenous communities.",
-    "category": "Tech, Political, Equality"
+    "category": "Tech, Political, Equality, Diaspora"
   },
   {
     "companyName": "Media Literacy Now",
@@ -1390,7 +1390,7 @@
     "companyWebsite": "https://shadesofblueproject.org",
     "careersPage": "",
     "notes": "Provides maternal mental health support and postpartum depression resources specifically tailored for minority women.",
-    "category": "Health, Equality"
+    "category": "Health, Equality, Diaspora"
   },
   {
     "companyName": "Postpartum Support International (PSI)",
@@ -1502,7 +1502,7 @@
     "companyWebsite": "https://nywf.org",
     "careersPage": "",
     "notes": "A highly respected foundation that explicitly funds grassroots, community-led initiatives centering women of color, economic justice, and anti-violence work, often operating outside the traditional carceral framework.",
-    "category": "Funding, Equality"
+    "category": "Funding, Equality, Diaspora"
   },
   {
     "companyName": "New Economy Project",
@@ -1537,7 +1537,7 @@
     "companyWebsite": "https://niacommunity.org",
     "careersPage": "",
     "notes": "A community-based funding and mutual aid organization focused on empowering marginalized neighborhoods in New York.",
-    "category": "Funding"
+    "category": "Funding, Diaspora"
   },
   {
     "companyName": "The Center (LGBTQ)",
@@ -1558,28 +1558,28 @@
     "companyWebsite": "https://sakhi.org",
     "careersPage": "",
     "notes": "Phenomenal, culturally specific direct-service org for survivors of gender-based violence, trafficking, and systemic poverty.",
-    "category": "Equality, Housing"
+    "category": "Equality, Housing, Diaspora"
   },
   {
     "companyName": "VIP (Violence Intervention Program)",
     "companyWebsite": "https://vipmujeres.org",
     "careersPage": "",
     "notes": "Phenomenal, culturally specific direct-service org for survivors of gender-based violence, trafficking, and systemic poverty.",
-    "category": "Equality, Housing"
+    "category": "Equality, Housing, Diaspora"
   },
   {
     "companyName": "Voces Latinas",
     "companyWebsite": "https://voceslatinas.org",
     "careersPage": "",
     "notes": "Phenomenal, culturally specific direct-service org for survivors of gender-based violence, trafficking, and systemic poverty.",
-    "category": "Equality, Housing"
+    "category": "Equality, Housing, Diaspora"
   },
   {
     "companyName": "Womankind",
     "companyWebsite": "https://iamwomankind.org",
     "careersPage": "",
     "notes": "Phenomenal, culturally specific direct-service org for survivors of gender-based violence, trafficking, and systemic poverty.",
-    "category": "Equality, Housing"
+    "category": "Equality, Housing, Diaspora"
   },
   {
     "companyName": "The Trevor Project",
@@ -1593,14 +1593,14 @@
     "companyWebsite": "https://populardemocracy.org",
     "careersPage": "",
     "notes": "A massive progressive advocacy network that builds the organizing power of working-class families, immigrants, and communities of color to fight for pro-worker policies and systemic change.",
-    "category": "Political, Labor"
+    "category": "Political, Labor, Diaspora"
   },
   {
     "companyName": "Make the Road CT",
     "companyWebsite": "https://maketheroadct.org",
     "careersPage": "",
     "notes": "Working-class grassroots organization fighting aggressively for immigrant, housing, and labor rights across CT.",
-    "category": "Immigration, Housing, Labor"
+    "category": "Immigration, Housing, Labor, Diaspora"
   },
   {
     "companyName": "LABMED",
@@ -1614,7 +1614,7 @@
     "companyWebsite": "https://maketheroadpa.org",
     "careersPage": "",
     "notes": "Working-class grassroots organization fighting aggressively for immigrant, housing, and labor rights across Pennsylvania.",
-    "category": "Immigration, Housing, Labor"
+    "category": "Immigration, Housing, Labor, Diaspora"
   },
   {
     "companyName": "PYRAMEDIC Trust",
@@ -1628,7 +1628,7 @@
     "companyWebsite": "https://maketheroadnv.org",
     "careersPage": "",
     "notes": "Working-class grassroots organization fighting aggressively for immigrant, housing, and labor rights across Nevada.",
-    "category": "Immigration, Housing, Labor"
+    "category": "Immigration, Housing, Labor, Diaspora"
   },
   {
     "companyName": "Southside Worker Center",
@@ -1677,7 +1677,7 @@
     "companyWebsite": "https://maketheroadnj.org",
     "careersPage": "",
     "notes": "Working-class grassroots organization fighting aggressively for immigrant, housing, and labor rights across New Jersey.",
-    "category": "Immigration, Housing, Labor"
+    "category": "Immigration, Housing, Labor, Diaspora"
   },
   {
     "companyName": "People Helping People in the Border Zone",
@@ -1698,7 +1698,7 @@
     "companyWebsite": "https://tqpueblo.org",
     "careersPage": "",
     "notes": "An autonomous LGBTQ+ migrant community of color in Phoenix focusing on community defense, health clinics, and resisting ICE detention.",
-    "category": "LGBTQIA+, Immigration, Law"
+    "category": "LGBTQIA+, Immigration, Law, Diaspora"
   },
   {
     "companyName": "Keeshond Sunshine Rescue Foundation",
@@ -1733,7 +1733,7 @@
     "companyWebsite": "https://soaw.org",
     "careersPage": "",
     "notes": "A historic anti-imperialist organization dedicated to closing the School of the Americas (now WHINSEC) and ending US military and political intervention in Latin America.",
-    "category": "Political, Humanitarian"
+    "category": "Political, Humanitarian, Diaspora"
   },
   {
     "companyName": "Australian Cattle Dog Rescue, Inc. (ACDRI)",
@@ -1747,7 +1747,7 @@
     "companyWebsite": "https://ainowinstitute.org",
     "careersPage": "",
     "notes": "A leading progressive research organization confronting the social implications of artificial intelligence, specifically focusing on how AI exacerbates inequality, systemic racism, and labor exploitation.",
-    "category": "Tech, Political, Labor"
+    "category": "Tech, Political, Labor, Diaspora"
   },
   {
     "companyName": "Goldstock Fund",
@@ -1775,7 +1775,7 @@
     "companyWebsite": "https://derechoshumanosaz.net",
     "careersPage": "",
     "notes": "A grassroots organization fighting the militarization of the US-Mexico border and organizing campaigns against the criminalization of migrants.",
-    "category": "Immigration, Political"
+    "category": "Immigration, Political, Diaspora"
   },
   {
     "companyName": "Colibri Center for Human Rights",
@@ -1803,35 +1803,35 @@
     "companyWebsite": "https://puenteaz.org",
     "careersPage": "",
     "notes": "A fiercely abolitionist grassroots migrant justice organization in Arizona fighting for the abolition of ICE and local police collaboration.",
-    "category": "Immigration, Law, Political"
+    "category": "Immigration, Law, Political, Diaspora"
   },
   {
     "companyName": "Otros Dreams en Acción (ODA)",
     "companyWebsite": "https://odamexico.org",
     "careersPage": "",
     "notes": "A grassroots organization based in Mexico City built by and for deported youth, returned migrants, and former DACA recipients who find themselves exiled in a country they do not know. They provide mutual aid, cultural integration, and political advocacy for those fighting the criminalization of deportation.",
-    "category": "Immigration, Children, Political"
+    "category": "Immigration, Children, Political, Diaspora"
   },
   {
     "companyName": "Fundación para la Justicia (FJEDD)",
     "companyWebsite": "https://fundacionjusticia.org",
     "careersPage": "",
     "notes": "A trans-border organization operating in Mexico and the Northern Triangle (El Salvador, Guatemala, Honduras) that provides direct legal and investigative support for the families of disappeared, incarcerated, or massacred migrants.",
-    "category": "Law, Immigration, Humanitarian"
+    "category": "Law, Immigration, Humanitarian, Diaspora"
   },
   {
     "companyName": "Instituto para las Mujeres en la Migración (IMUMI)",
     "companyWebsite": "https://imumi.org",
     "careersPage": "",
     "notes": "Based in Mexico, this organization provides vital legal and social support for deported and returning women, children, and families, actively fighting family separation and the militarization of the US-Mexico border.",
-    "category": "Law, Immigration, Equality, Children"
+    "category": "Law, Immigration, Equality, Children, Diaspora"
   },
   {
     "companyName": "Homies Unidos",
     "companyWebsite": "https://homiesunidos.org",
     "careersPage": "",
     "notes": "Works specifically with gang-involved, formerly incarcerated, and deported youth in El Salvador and Los Angeles, focusing on violence prevention, trauma recovery, and fighting the systemic pipeline of mass deportation and transnational carceral violence.",
-    "category": "Law, Immigration, Children"
+    "category": "Law, Immigration, Children, Diaspora"
   },
   {
     "companyName": "International Campaign to Abolish Nuclear Weapons (ICAN)",
@@ -1866,21 +1866,21 @@
     "companyWebsite": "https://friendsofthecongo.org",
     "careersPage": "",
     "notes": "An anti-imperialist advocacy group fighting against the corporate extraction of minerals, Western intervention, and systemic violence driving the endless conflict in the Democratic Republic of Congo.",
-    "category": "Political, Humanitarian"
+    "category": "Political, Humanitarian, Diaspora"
   },
   {
     "companyName": "Haiti Action Committee",
     "companyWebsite": "https://haitisolidarity.net",
     "careersPage": "",
     "notes": "A grassroots solidarity organization supporting the popular democratic movement in Haiti, vehemently opposing US and UN military intervention and imperialist economic policies.",
-    "category": "Political, Humanitarian"
+    "category": "Political, Humanitarian, Diaspora"
   },
   {
     "companyName": "Sudan Solidarity Collective",
     "companyWebsite": "https://sudansolidarity.com",
     "careersPage": "",
     "notes": "A diaspora-led grassroots mutual aid and advocacy network directly supporting local resistance committees on the ground in Sudan to bypass the warring military factions.",
-    "category": "Humanitarian, Funding, Political"
+    "category": "Humanitarian, Funding, Political, Diaspora"
   },
   {
     "companyName": "Women Cross DMZ",
@@ -1894,7 +1894,7 @@
     "companyWebsite": "https://khrg.org",
     "careersPage": "",
     "notes": "A grassroots, locally led organization documenting human rights abuses by the military junta in Myanmar and amplifying the voices of the persecuted Karen people.",
-    "category": "Humanitarian, Law"
+    "category": "Humanitarian, Law, Diaspora"
   },
   {
     "companyName": "Liberty in North Korea (LiNK)",
@@ -1908,35 +1908,35 @@
     "companyWebsite": "https://afghansforabettertomorrow.org",
     "careersPage": "",
     "notes": "A progressive diaspora organization fighting for the rights of Afghan refugees, demanding humanitarian pathways for those fleeing the Taliban, and advocating for an end to systemic violence in the region.",
-    "category": "Immigration, Humanitarian"
+    "category": "Immigration, Humanitarian, Diaspora"
   },
   {
     "companyName": "The Green Belt Movement",
     "companyWebsite": "https://greenbeltmovement.org",
     "careersPage": "",
     "notes": "Founded by Wangari Maathai, this is a historic, Indigenous-led, grassroots women's movement in Kenya that combats desertification, poverty, and systemic disempowerment through massive community tree-planting initiatives.",
-    "category": "Environmental, Indigenous, Equality"
+    "category": "Environmental, Indigenous, Equality, Diaspora"
   },
   {
     "companyName": "Tree Aid",
     "companyWebsite": "https://treeaid.org",
     "careersPage": "",
     "notes": "Operates explicitly in the drylands of Africa (including the heavily conflicted Sahel region), working with local communities to grow trees and restore degraded land to fight desertification and build local food sovereignty.",
-    "category": "Environmental"
+    "category": "Environmental, Diaspora"
   },
   {
     "companyName": "Justdiggit",
     "companyWebsite": "https://justdiggit.org",
     "careersPage": "",
     "notes": "A grassroots environmental initiative focused on regreening dry, degraded landscapes in Sub-Saharan Africa by teaching local farmers traditional water-harvesting techniques (like earth smiles/bunds) to cool the climate and stop advancing deserts.",
-    "category": "Environmental"
+    "category": "Environmental, Diaspora"
   },
   {
     "companyName": "Sadhana Forest",
     "companyWebsite": "https://sadhanaforest.org",
     "careersPage": "",
     "notes": "A highly decentralized, volunteer-run reforestation project that originated in India and now operates heavily in Kenya and Haiti, focusing on planting drought-resistant indigenous trees and building local, sustainable food forests in arid regions.",
-    "category": "Environmental, Indigenous"
+    "category": "Environmental, Indigenous, Diaspora"
   },
   {
     "companyName": "Razom for Ukraine",
@@ -2013,14 +2013,14 @@
     "companyWebsite": "https://organizetexas.org",
     "careersPage": "",
     "notes": "A massive powerhouse of Black and Latino working-class organizing running aggressive, direct-action campaigns for bail reform, tenant rights, and ending ICE collaboration.",
-    "category": "Law, Housing, Immigration, Political"
+    "category": "Law, Housing, Immigration, Political, Diaspora"
   },
   {
     "companyName": "Native American Rights Fund (NARF)",
     "companyWebsite": "https://narf.org",
     "careersPage": "",
     "notes": "The premier national legal organization fighting for Indigenous rights, tribal sovereignty, treaty enforcement, and natural resource protection.",
-    "category": "Law, Indigenous"
+    "category": "Law, Indigenous, Diaspora"
   },
   {
     "companyName": "Ilhan for Congress",
@@ -2048,48 +2048,48 @@
     "companyWebsite": "https://capacesleadership.org",
     "careersPage": "",
     "notes": "Based in Woodburn, Oregon, this grassroots institute develops and supports organizing leadership specifically within underserved farmworker and Latino communities.",
-    "category": "Labor, Equality"
+    "category": "Labor, Equality, Diaspora"
   },
   {
     "companyName": "Farmworker Housing Development Corporation (FHDC)",
     "companyWebsite": "https://fhdc.org",
     "careersPage": "",
     "notes": "Partnered organizations providing crucial affordable housing, workforce training, and mutual aid assistance directly to farmworkers and low-income families in Oregon.",
-    "category": "Housing, Labor"
+    "category": "Housing, Labor, Diaspora"
   },
   {
     "companyName": "Mujeres Luchadoras Progresistas (MLP)",
     "companyWebsite": "https://mujeresluchadoras.wordpress.com/",
     "careersPage": "",
     "notes": "A sister organization of PCUN that promotes economic autonomy, direct mutual aid, and leadership development specifically for immigrant women and farmworkers.",
-    "category": "Equality, Immigration, Labor"
+    "category": "Equality, Immigration, Labor, Diaspora"
   },
   {
     "companyName": "CAUSA",
     "companyWebsite": "https://causaoregon.org",
     "careersPage": "",
     "notes": "Oregon's leading immigrant rights organization, working to improve the lives of Latinx immigrants through fierce statewide advocacy and grassroots coalition building.",
-    "category": "Immigration, Political"
+    "category": "Immigration, Political, Diaspora"
   },
   {
     "companyName": "Latinos Unidos Siempre (LUS)",
     "companyWebsite": "https://lusyouthorg.wordpress.com/about/",
     "careersPage": "",
     "notes": "A grassroots, youth-led organization in the Salem-Keizer area focused on developing political leadership among young Latinos and organizing against systemic issues in their schools and communities.",
-    "category": "Children, Political, Equality"
+    "category": "Children, Political, Equality, Diaspora"
   },
   {
     "companyName": "Mano a Mano Family Center",
     "companyWebsite": "https://manoamanofc.org",
     "careersPage": "",
     "notes": "A community-based mutual aid organization in Salem providing essential health, education, and family support resources directly to farmworker and immigrant families.",
-    "category": "Health, Children, Immigration, Labor"
+    "category": "Health, Children, Immigration, Labor, Diaspora"
   },
   {
     "companyName": "Salem-Keizer Coalition for Equality",
     "companyWebsite": "https://skcequality.org",
     "careersPage": "",
     "notes": "A grassroots, parent-led civil rights organization fighting for educational equity and dismantling systemic barriers for Latino and immigrant students in Oregon schools.",
-    "category": "Children, Immigration, Equality"
+    "category": "Children, Immigration, Equality, Diaspora"
   }
 ]
