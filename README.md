@@ -1,5 +1,3 @@
-<img width="1409" height="880" alt="Screenshot 2026-05-22 at 9 13 01 PM" src="https://github.com/user-attachments/assets/c065af82-eb51-40d1-8c33-2e9bd2bb832b" />
-
 # 🛡️ Praxis: The High-Signal Progressive Job Board
 
 **Praxis** is a curated, minimalist job board designed to filter out ethically compromised and standard corporate noise. It isolates roles specifically within **human rights advocacy, public interest technology, labor organizing, and vetted progressive impact work.**
