@@ -301,12 +301,22 @@
             color: white;
         }
 
-        .category-humanrights { background-color: blue; }
-        .category-tech { background-color: green; }
-        .category-defence { background-color: red; }
-        .category-recruiter { background-color: yellow; color: black; }
-        .category-nonprofit { background-color: purple; color: white; }
-        .category-portfolio { background-color: #0dc4af; color: white; }
+        .category-law { background-color: #D35400; } /* Orange-y */
+        .category-labor { background-color: #C0392B; } /* Reddish/red */
+        .category-tech { background-color: #008080; } /* Blue/teal */
+        .category-political { background-color: #0056b3; } /* True blue */
+        .category-animal { background-color: #8D6E63; } /* Brownish */
+        .category-funding { background-color: #4CAF50; } /* Lighter green */
+        .category-environmental { background-color: #2E7D32; } /* Darker green */
+        .category-lgbtqia { background: linear-gradient(to right, #B71C1C, #E65100, #F57F17, #1B5E20, #0D47A1, #4A148C); } /* Rainbow */
+        .category-equality { background-color: #6A1B9A; } /* Purple darkish */
+        .category-humanitarian { background-color: #757575; } /* Nice grey */
+        .category-immigration { background-color: #D84315; } /* Dark orange */
+        .category-housing { background-color: #5E35B1; } /* Blueish purple */
+        .category-health { background-color: #827717; } /* Lime green - darker for text contrast */
+        .category-children { background-color: #7986CB; } /* Periwinkle */
+        .category-indigenous { background-color: #A1887F; } /* Orangeish brownish we haven't used */
+        .category-diaspora { background-color: #4E342E; } /* Darker brown */
     </style>
 
 </head>
@@ -625,7 +635,8 @@
                     let categoryLabels = '';
                     if (org.category) {
                         categoryLabels = org.category.split(',').map(category => {
-                            const categoryClass = `category-${category.trim().toLowerCase().replace(/\s+/g, '')}`;
+                            // Convert to lowercase and strip all non-alphanumeric characters (like + in LGBTQIA+)
+                            const categoryClass = `category-${category.trim().toLowerCase().replace(/[^a-z0-9]/g, '')}`;
                             return `<span class="category-label ${categoryClass}">${category.trim()}</span>`;
                         }).join(' ');
                     }
