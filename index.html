@@ -6,39 +6,45 @@
     <title>Praxis: A Not Evil Job Board</title>
     <style>
         :root {
-            --bg-color: #313338;
+            --bg-color: #1E1F22;
             --container-bg: #2B2D31;
-            --container-border: #1E1F22;
-            --accent-color: #5865F2;
+            --container-border: #4A413C;
+            --accent-color: #BB6C43;
             --text-primary: #F2F3F5;
-            --text-heading: #F2F3F5;
-            --link-color: #5865F2;
-            --input-bg: #313338;
-            --input-border: #1E1F22;
+            --text-heading: #C8906D;
+            --link-color: #BB6C43;
+            --link-hover-color: #D68A59;
+            --input-bg: #2B2D31;
+            --input-border: #4A413C;
             --bubble-bg: #2B2D31;
             --table-header-bg: #2B2D31;
-            --table-border: #1E1F22;
-            --row-hover: #1E1F22;
+            --table-border: #4A413C;
+            --row-hover: #313338;
             --secondary-text: #B5BAC1;
             --job-bg: #2B2D31;
+            --logo-color: #C8906D;
+            --org-name-color: #CCB499;
         }
 
         [data-theme="light"] {
-            --bg-color: #F2F3F5;
+            --bg-color: #EBEFEE;
             --container-bg: #FFFFFF;
-            --container-border: #3794FF;
-            --accent-color: #3794FF;
-            --text-primary: #313338;
-            --text-heading: #060607;
-            --link-color: #0078D4;
+            --container-border: #CCB499;
+            --accent-color: #BB6C43;
+            --text-primary: #18181B;
+            --text-heading: #C8906D;
+            --link-color: #BB6C43;
+            --link-hover-color: #995533;
             --input-bg: #FFFFFF;
-            --input-border: #DBDEE1;
-            --bubble-bg: #F8F9F9;
+            --input-border: #CCB499;
+            --bubble-bg: #FFFFFF;
             --table-header-bg: #FFFFFF;
-            --table-border: #DBDEE1;
-            --row-hover: #F2F3F5;
-            --secondary-text: #5C5E66;
+            --table-border: #CCB499;
+            --row-hover: #F4F4F5;
+            --secondary-text: #71717A;
             --job-bg: #FFFFFF;
+            --logo-color: #C8906D;
+            --org-name-color: #4A413C;
         }
 
         body {
@@ -71,7 +77,7 @@
         h1 {
             text-align: left;
             margin-top: 0;
-            color: var(--accent-color);
+            color: var(--logo-color);
             font-size: 2em;
         }
         
@@ -91,6 +97,7 @@
 
         .subheading a:hover {
             text-decoration: underline;
+            color: var(--link-hover-color);
         }
 
         #searchBar, #orgSearchBar {
@@ -109,12 +116,13 @@
         #searchBar:focus, #orgSearchBar:focus {
             outline: none;
             border-color: var(--accent-color);
+            box-shadow: 0 0 0 1px var(--accent-color);
         }
 
         .bubble-area {
             display: none;
             background-color: var(--bubble-bg);
-            border: 1px solid var(--accent-color);
+            border: 1px solid var(--container-border);
             border-radius: 8px;
             padding: 15px;
             margin-bottom: 20px;
@@ -173,7 +181,7 @@
             position: sticky;
             top: -20px;
             background-color: var(--table-header-bg);
-            border-bottom: 2px solid var(--accent-color);
+            border-bottom: 1px solid var(--table-border);
             padding: 12px 10px;
             color: var(--secondary-text);
             text-transform: uppercase;
@@ -190,7 +198,7 @@
         }
 
         .job-title {
-            color: var(--accent-color);
+            color: var(--link-color);
             font-weight: bold;
             text-decoration: none;
             font-size: 1.05em;
@@ -198,14 +206,16 @@
 
         .job-title:hover {
             text-decoration: underline;
+            color: var(--link-hover-color);
         }
 
         .company-link {
-            color: var(--text-primary);
+            color: var(--org-name-color);
             text-decoration: none;
             font-size: 0.9em;
             display: block;
             margin-top: 2px;
+            font-weight: bold;
         }
 
         .company-link:hover {
@@ -261,13 +271,13 @@
 
         .job h2 {
             margin: 0;
-            color: var(--text-primary);
+            color: var(--org-name-color);
             font-size: 1em;
         }
 
         .job p {
             margin: 5px 0;
-            color: var(--text-primary);
+            color: var(--secondary-text);
             font-size: 0.9em;
         }
 
@@ -279,6 +289,7 @@
 
         .job a:hover {
             text-decoration: underline;
+            color: var(--link-hover-color);
         }
 
         .category-label {
