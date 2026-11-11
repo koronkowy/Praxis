@@ -80,8 +80,8 @@
     "companyName": "Her Justice",
     "companyWebsite": "https://herjustice.org",
     "careersPage": "https://herjustice.org/careers/",
-    "notes": "Mentorship and legal help for women living in poverty.",
-    "category": "Law, Equality"
+    "notes": "Mentorship and legal help for women in New York City living in poverty.",
+    "category": "Law, Equality, Immigration"
   },
   {
     "companyName": "C.A. Goldberg, PLLC",
@@ -168,18 +168,18 @@
     "category": "Immigration, Tech, Political, Equality, Diaspora"
   },
   {
-    "companyName": "Make the Road",
+    "companyName": "Make the Road: New York",
     "companyWebsite": "https://maketheroadny.org",
     "careersPage": "https://maketheroadny.org/join-our-team/",
-    "notes": "A massive, working-class grassroots organization fighting for immigrant, housing, and labor rights.",
-    "category": "Immigration, Housing, Labor, Diaspora"
+    "notes": "A New York working-class grassroots organization fighting for intersectional rights of New Yorkers covering a variety of missions.",
+    "category": "Immigration, Political, Children, Health, Housing, Environmental, Law, LGBTQIA+, Labor"
   },
   {
     "companyName": "Puente Human Rights Movement",
     "companyWebsite": "https://puenteaz.org",
     "careersPage": "",
     "notes": "A grassroots migrant justice organization based in Arizona fighting for the abolition of ICE and the empowerment of undocumented people.",
-    "category": "Immigration, Political, Equality, Diaspora"
+    "category": "Immigration, Law, Children, Diaspora"
   },
   {
     "companyName": "United We Dream",
@@ -228,35 +228,35 @@
     "companyWebsite": "https://mpowerchange.org",
     "careersPage": "https://www.mpowerchange.org/careers",
     "notes": "A grassroots Muslim organizing network fighting for racial, economic, and social justice, and aggressively campaigning against the War on Terror and state surveillance.",
-    "category": "Political, Humanitarian, Equality, Diaspora"
+    "category": "Political, Tech, Diaspora"
   },
   {
     "companyName": "Believers Bail Out",
     "companyWebsite": "https://believersbailout.org",
     "careersPage": "https://believersbailout.org/hiring/",
     "notes": "A community-led effort to bail out Muslims in pretrial incarceration and ICE custody as a form of Zakat (charity).",
-    "category": "Law, Immigration, Equality, Diaspora"
+    "category": "Law, Immigration, Diaspora"
   },
   {
     "companyName": "Muslim Advocates",
     "companyWebsite": "https://muslimadvocates.org",
     "careersPage": "https://muslimadvocates.org/about/careers/",
     "notes": "A national legal advocacy and educational organization that fights against anti-Muslim bigotry, surveillance, and discrimination in the courts.",
-    "category": "Law, Political, Equality, Diaspora"
+    "category": "Law, Political, Diaspora"
   },
   {
     "companyName": "Arab American Action Network (AAAN)",
     "companyWebsite": "https://aaan.org",
     "careersPage": "",
-    "notes": "Organizes extensively in Muslim communities around immigrant rights, anti-surveillance, and racial justice.",
-    "category": "Immigration, Tech, Political, Equality, Diaspora"
+    "notes": "Organizes extensively in Muslim communities around Chicago.",
+    "category": "Children, Diaspora"
   },
   {
     "companyName": "Audre Lorde Project",
     "companyWebsite": "https://alp.org",
     "careersPage": "",
     "notes": "A community organizing center for Lesbian, Gay, Bisexual, Two Spirit, Trans and Gender Non-Conforming People of Color, focused on mobilization and community wellness.",
-    "category": "LGBTQIA+, Health, Political, Equality, Diaspora"
+    "category": "LGBTQIA+, Diaspora, Equality, Housing, Immigration, Health"
   },
   {
     "companyName": "Lambda Legal",
