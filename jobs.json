@@ -458,7 +458,7 @@
     "model": "Onsite",
     "deadline": "",
     "post_date": "2026-11-10",
-    "needs_manual_check": false,
+    "needs_manual_check": true,
     "last_manual_check": ""
   },
   {
@@ -1346,13 +1346,13 @@
   {
     "title": "Contractor: AI Engineer (Open Source Agentic Systems)",
     "company": "Bellingcat",
-    "status": "active",
+    "status": "expired",
     "url": "https://www.bellingcat.com/contractor-ai-engineer-open-source-agentic-systems/",
     "company_url": "https://www.bellingcat.com/",
     "listed_locations": "Remote",
     "eligibility_regions": "US-All, Canada, Europe, MENA, APAC, LATAM",
     "model": "Remote",
-    "deadline": "2026-11-08",
+    "deadline": "Expired",
     "post_date": "2026-11-11",
     "needs_manual_check": false,
     "last_manual_check": ""
@@ -1360,13 +1360,13 @@
   {
     "title": "Grant manager (Ukraine)",
     "company": "ERIM",
-    "status": "active",
+    "status": "expired",
     "url": "https://erim.ngo/vacancies/terms-of-references-consultancy-grant-manager-ukraine/",
     "company_url": "https://erim.ngo",
     "listed_locations": "Ukraine",
     "eligibility_regions": "Europe",
     "model": "Remote",
-    "deadline": "2026-07-03",
+    "deadline": "Expired",
     "post_date": "2026-11-11",
     "needs_manual_check": false,
     "last_manual_check": ""
