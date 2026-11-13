@@ -170,13 +170,13 @@
   {
     "title": "Part-Time Logistics Coordinator",
     "company": "No More Deaths",
-    "status": "active",
+    "status": "expired",
     "url": "https://nomoredeaths.org/part-time-logistics-coordinator/",
     "company_url": "https://nomoredeaths.org/",
     "listed_locations": "Tucson, AZ",
     "eligibility_regions": "US-West",
     "model": "Onsite",
-    "deadline": "2026-11-12",
+    "deadline": "Expired",
     "post_date": "2026-11-09",
     "needs_manual_check": false,
     "last_manual_check": ""
@@ -458,7 +458,7 @@
     "model": "Onsite",
     "deadline": "",
     "post_date": "2026-11-10",
-    "needs_manual_check": true,
+    "needs_manual_check": false,
     "last_manual_check": ""
   },
   {
@@ -1024,7 +1024,7 @@
   {
     "title": "RAIN - HIP Navigator (CDC)",
     "company": "Ascend Nonprofit Solutions",
-    "status": "active",
+    "status": "expired",
     "url": "https://ascendnps.isolvedhire.com/jobs/1875155",
     "company_url": "https://ascendnps.isolvedhire.com",
     "listed_locations": "Charlotte, NC",
