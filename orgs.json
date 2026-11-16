@@ -298,7 +298,7 @@
     "companyWebsite": "https://sinsinvalid.org",
     "careersPage": "",
     "notes": "A disability justice-based performance project offering deep political education on the intersection of disability and capitalism.",
-    "category": "Health, Political, Equality, Diaspora"
+    "category": "Health, Political, Native, Equality, Diaspora"
   },
   {
     "companyName": "HEARD (Helping Educate to Advance the Rights of Deaf Communities)",
@@ -312,7 +312,7 @@
     "companyWebsite": "https://cdrnys.org/",
     "careersPage": "https://cdrnys.org/job-listings/",
     "notes": "A disabled-led, not-for-profit corporation working for the full integration, independence, and civil rights of people with disabilities.",
-    "category": "Law, Health, Equality"
+    "category": "Law, Health, Labor"
   },
   {
     "companyName": "Abdul El-Sayed",
@@ -326,42 +326,42 @@
     "companyWebsite": "https://chrisrabb.com",
     "careersPage": "",
     "notes": "Progressive candidate running for U.S. House in Pennsylvania's 3rd Congressional District.",
-    "category": "Political"
+    "category": "Political, Diaspora"
   },
   {
     "companyName": "Donavan McKinney",
     "companyWebsite": "https://donavanmckinney.com",
     "careersPage": "",
     "notes": "Progressive candidate running for U.S. House in Michigan's 13th Congressional District.",
-    "category": "Political"
+    "category": "Political, Diaspora"
   },
   {
     "companyName": "Claire Valdez",
     "companyWebsite": "https://clairevaldezforcongress.com",
     "careersPage": "https://clairevaldezforcongress.com/jobs",
     "notes": "Democratic Socialist candidate running for U.S. House in New York's 7th Congressional District.",
-    "category": "Political"
+    "category": "Political, Diaspora, Labor"
   },
   {
     "companyName": "Melat Kiros",
     "companyWebsite": "https://www.kirosforco.com/",
     "careersPage": "https://justicedemocrats.com/about",
     "notes": "Progressive candidate running for U.S. House in Colorado's 1st Congressional District.",
-    "category": "Political"
+    "category": "Political, Diaspora"
   },
   {
     "companyName": "National Democratic Socialists of America (DSA)",
     "companyWebsite": "https://dsausa.org",
     "careersPage": "https://www.dsausa.org/about-us/careers/",
     "notes": "The central national organizing apparatus for the DSA.",
-    "category": "Political"
+    "category": "Political, Labor"
   },
   {
     "companyName": "NYC-DSA",
     "companyWebsite": "https://socialists.nyc",
     "careersPage": "",
     "notes": "One of the largest and most influential local chapters, responsible for massive state-level housing, climate, and electoral campaigns.",
-    "category": "Political, Housing, Environmental"
+    "category": "Political, Housing, Environmental, Immigration"
   },
   {
     "companyName": "Metro Detroit DSA",
@@ -389,28 +389,28 @@
     "companyWebsite": "https://dair-institute.org",
     "careersPage": "https://dair-institute.org/careers/",
     "notes": "Centers marginalized communities in AI research and fiercely critiques the labor and environmental exploitation of large tech companies.",
-    "category": "Tech, Labor, Environmental, Equality, Diaspora"
+    "category": "Tech, Labor, Environmental"
   },
   {
     "companyName": "Algorithmic Justice League (AJL)",
     "companyWebsite": "https://ajl.org",
     "careersPage": "",
     "notes": "Focusing heavily on the social implications and harms of AI, specifically facial recognition, racial bias, and state surveillance.",
-    "category": "Tech, Law, Equality, Diaspora"
+    "category": "Tech, Law"
   },
   {
     "companyName": "Fight for the Future",
     "companyWebsite": "https://fightforthefuture.org",
     "careersPage": "https://www.fightforthefuture.org/about/jobs",
     "notes": "A digital rights advocacy group that aggressively campaigns against algorithmic surveillance, facial recognition, and massive data centers.",
-    "category": "Tech, Environmental"
+    "category": "Tech, Law, Political"
   },
   {
     "companyName": "Data & Society",
     "companyWebsite": "https://datasociety.net",
     "careersPage": "https://datasociety.net/careers-at-data-society/",
     "notes": "An independent research institute studying the social implications of data-centric technologies and automation, maintaining a strong lens on labor exploitation and civil rights.",
-    "category": "Tech, Labor, Law, Equality"
+    "category": "Tech, Labor, Law"
   },
   {
     "companyName": "Tech Workers Coalition (TWC)",
@@ -423,7 +423,7 @@
     "companyName": "Bellingcat",
     "companyWebsite": "https://bellingcat.com",
     "careersPage": "https://www.bellingcat.com/about/careers",
-    "notes": "Open-source intelligence organization, though highly criticized by the anti-imperialist left for aligning almost exclusively with NATO foreign policy narratives.",
+    "notes": "Open-source intelligence organization.",
     "category": "Tech, Political"
   },
   {
@@ -459,7 +459,7 @@
     "companyWebsite": "https://upturn.org",
     "careersPage": "https://www.upturn.org/join/",
     "notes": "Excellent tech-justice organization that actively investigates and pushes back against police use of technology, algorithms in the carceral system, and systemic racism in tech.",
-    "category": "Tech, Law, Equality, Diaspora"
+    "category": "Tech, Law"
   },
   {
     "companyName": "The Movement Cooperative",
@@ -494,7 +494,7 @@
     "companyWebsite": "https://democracynow.org",
     "careersPage": "https://www.democracynow.org/about/jobs",
     "notes": "The gold standard for independent, anti-imperialist, and pro-labor daily news broadcasts.",
-    "category": "Labor, Political, Humanitarian"
+    "category": "Labor, Political"
   },
   {
     "companyName": "Jacobin",
@@ -515,14 +515,14 @@
     "companyWebsite": "https://prismreports.org",
     "careersPage": "",
     "notes": "An independent, non-profit newsroom led by journalists of color, explicitly centering the voices of marginalized people.",
-    "category": "Political, Equality, Diaspora"
+    "category": "Political, Diaspora"
   },
   {
     "companyName": "The Marshall Project",
     "companyWebsite": "https://themarshallproject.org",
     "careersPage": "https://www.themarshallproject.org/jobs",
     "notes": "Excellent non-profit journalism focusing explicitly on the failures and brutalities of the US criminal justice and carceral systems.",
-    "category": "Law"
+    "category": "Law, Immigration"
   },
   {
     "companyName": "Our Revolution",
@@ -543,7 +543,7 @@
     "companyWebsite": "https://opencollective.com",
     "careersPage": "",
     "notes": "A funding platform designed specifically for transparent, decentralized mutual aid groups, open-source projects, and grassroots collectives.",
-    "category": "Funding"
+    "category": "Funding, Tech"
   },
   {
     "companyName": "BetaNYC",
@@ -557,7 +557,7 @@
     "companyWebsite": "https://cdt.org",
     "careersPage": "https://cdt.org/careers/",
     "notes": "A champion of global digital rights that conducts rigorous policy research to defend privacy, free expression, and equity against corporate and state overreach.",
-    "category": "Tech, Law"
+    "category": "Tech, Law, Political"
   },
   {
     "companyName": "NYU Cybersecurity for Democracy",
@@ -585,7 +585,7 @@
     "companyWebsite": "https://d4bl.org",
     "careersPage": "",
     "notes": "A movement of activists, organizers, and mathematicians committed to using data to create concrete and measurable change in the lives of Black people.",
-    "category": "Tech, Equality, Diaspora"
+    "category": "Tech, Diaspora"
   },
   {
     "companyName": "Common Cause",
@@ -606,14 +606,14 @@
     "companyWebsite": "https://pfaw.org",
     "careersPage": "https://www.peoplefor.org/careers-people-american-way",
     "notes": "A progressive advocacy organization focused heavily on defending civil rights, mobilizing young voters, and confirming progressive judges.",
-    "category": "Political, Law"
+    "category": "Political, Law, Children"
   },
   {
     "companyName": "Demos",
     "companyWebsite": "https://demos.org",
     "careersPage": "https://www.demos.org/about/careers",
     "notes": "A dynamic \"think-and-do\" tank that partners directly with grassroots organizers to fight for economic justice, voting rights, and a multiracial democracy.",
-    "category": "Political, Equality, Diaspora"
+    "category": "Political, Diaspora"
   },
   {
     "companyName": "Democracy Fund",
@@ -662,7 +662,7 @@
     "companyWebsite": "https://criticalracedigitalstudies.com",
     "careersPage": "",
     "notes": "A vital academic network that explicitly studies how technology, algorithms, and digital media intersect with and exacerbate systemic racism.",
-    "category": "Tech, Equality, Diaspora"
+    "category": "Tech, Diaspora"
   },
   {
     "companyName": "Center for an Informed Public (University of Washington)",
@@ -676,28 +676,28 @@
     "companyWebsite": "https://epi.org",
     "careersPage": "",
     "notes": "The premier pro-labor, union-backed think tank in the United States covering workers' rights, union density, and progressive economic policy.",
-    "category": "Labor, Political"
+    "category": "Labor, Political, Law"
   },
   {
     "companyName": "OpenSecrets",
     "companyWebsite": "https://opensecrets.org",
     "careersPage": "https://www.opensecrets.org/about/careers",
     "notes": "The absolute best resource for tracking dark money, corporate lobbying, and political corruption.",
-    "category": "Political, Funding"
+    "category": "Political"
   },
   {
     "companyName": "Knight First Amendment Institute at Columbia University",
     "companyWebsite": "https://knightcolumbia.org",
     "careersPage": "https://knightcolumbia.org/page/work-with-us",
     "notes": "Does incredible, high-impact litigation defending free speech and the First Amendment against both state surveillance and the unchecked power of tech monopolies.",
-    "category": "Law, Tech"
+    "category": "Law, Tech, Political"
   },
   {
     "companyName": "Greenpeace",
     "companyWebsite": "https://greenpeace.org",
     "careersPage": "https://www.greenpeace.org/usa/jobs/",
     "notes": "Engages in radical direct action and climate justice work that resonates deeply with the youth-led progressive climate movement.",
-    "category": "Environmental, Political"
+    "category": "Environmental, Political, Law"
   },
   {
     "companyName": "OpenDemocracy",
@@ -724,7 +724,7 @@
     "companyName": "Drop Site News",
     "companyWebsite": "https://dropsitenews.com",
     "careersPage": "",
-    "notes": "A fiercely anti-imperialist independent investigative media organization doing some of the most aggressive reporting on US foreign policy and Gaza.",
+    "notes": "A fiercely anti-imperialist independent investigative media organization doing some of the most notable reporting on US foreign policy and Gaza.",
     "category": "Political, Humanitarian"
   },
   {
@@ -802,14 +802,14 @@
     "companyWebsite": "https://petsofthehomeless.org",
     "careersPage": "",
     "notes": "The first national organization focused strictly on providing pet food and emergency veterinary care to the animal companions of people experiencing homelessness.",
-    "category": "Animal, Housing, Health"
+    "category": "Animal, Housing"
   },
   {
     "companyName": "The Street Dog Coalition",
     "companyWebsite": "https://thestreetdogcoalition.org",
     "careersPage": "",
     "notes": "Provides free medical care and related services to pets of people experiencing, or at risk of, homelessness using a harm reduction and street medicine approach.",
-    "category": "Animal, Housing, Health"
+    "category": "Animal, Housing"
   },
   {
     "companyName": "Autonomous Tenant Union Network (ATUN)",
@@ -844,35 +844,35 @@
     "companyWebsite": "https://blackfoodjustice.org",
     "careersPage": "",
     "notes": "A vast coalition of Black urban and rural farmers, land stewards, and organizers working to reclaim Black land and build collective food sovereignty.",
-    "category": "Environmental, Equality, Diaspora"
+    "category": "Environmental, Diaspora"
   },
   {
     "companyName": "HEAL Food Alliance",
     "companyWebsite": "https://healfoodalliance.org",
     "careersPage": "",
     "notes": "A multi-sector coalition explicitly linking food accessibility to the labor rights and dignity of the workers who grow and distribute our food.",
-    "category": "Health, Labor"
+    "category": "Environmental, Labor"
   },
   {
     "companyName": "Food Not Bombs",
     "companyWebsite": "https://foodnotbombs.net",
     "careersPage": "",
     "notes": "The classic, decentralized anarchist mutual aid network recovering discarded food to share free meals in protest of war and systemic poverty.",
-    "category": "Humanitarian, Political, Health"
+    "category": "Humanitarian, Political"
   },
   {
     "companyName": "Soul Fire Farm",
     "companyWebsite": "https://soulfirefarm.org",
     "careersPage": "https://www.soulfirefarm.org/about/employment/",
     "notes": "An Afro-Indigenous centered community farm committed to uprooting racism and seeding sovereignty in the food system.",
-    "category": "Indigenous, Environmental, Equality, Diaspora"
+    "category": "Indigenous, Environmental, Diaspora"
   },
   {
     "companyName": "Footsteps",
     "companyWebsite": "https://footstepsorg.org",
     "careersPage": "https://www.footstepsorg.org/about-us/careers/",
     "notes": "Provides critical peer support, legal assistance, and educational resources for individuals attempting to leave ultra-Orthodox communities navigating abuse and economic isolation.",
-    "category": "Law, Equality, Health"
+    "category": "Law, Health"
   },
   {
     "companyName": "Recovering from Religion",
@@ -893,7 +893,7 @@
     "companyWebsite": "https://freegeek.org",
     "careersPage": "https://www.freegeek.org/join-our-team",
     "notes": "A classic open-source, leftist tech organization that sustainably refurbishes e-waste and redistributes computers to low-income individuals.",
-    "category": "Tech"
+    "category": "Tech, Environmental"
   },
   {
     "companyName": "Human-I-T",
@@ -907,7 +907,7 @@
     "companyWebsite": "https://compudopt.org",
     "careersPage": "https://www.compudopt.org/about-us/careers",
     "notes": "Focuses specifically on equipping students from under-resourced communities with refurbished computers and open-source tech education.",
-    "category": "Tech, Children"
+    "category": "Tech, Children, Environmental"
   },
   {
     "companyName": "Critical Resistance",
@@ -928,21 +928,21 @@
     "companyWebsite": "https://pcun.org",
     "careersPage": "",
     "notes": "Oregon's massive farmworker union heavily involved in labor strikes, climate justice for outdoor workers, and immigrant defense.",
-    "category": "Labor, Environmental, Immigration, Diaspora"
+    "category": "Labor, Environmental, Immigration, Diaspora, Law"
   },
   {
     "companyName": "Got Green",
     "companyWebsite": "https://gotgreenseattle.org",
     "careersPage": "",
     "notes": "A grassroots environmental justice organization led by people of color and working-class organizers focusing heavily on climate resilience and anti-gentrification.",
-    "category": "Environmental, Housing, Equality, Diaspora"
+    "category": "Environmental, Housing, Law, Diaspora"
   },
   {
     "companyName": "Native Movement",
     "companyWebsite": "https://nativemovement.org",
     "careersPage": "https://nativemovement.recruitee.com/",
     "notes": "Indigenous-led organizing focusing on environmental justice, untangling colonial systems, and fighting massive fossil fuel extraction projects in the Arctic.",
-    "category": "Indigenous, Environmental, Diaspora"
+    "category": "Indigenous, Environmental, Political"
   },
   {
     "companyName": "KAHEA: The Hawaiian-Environmental Alliance",
@@ -963,7 +963,7 @@
     "companyWebsite": "https://www.e-2-d.org/",
     "careersPage": "",
     "notes": "Their core mission is to completely eliminate the digital divide for working-class, first-generation, and low-income families by treating internet and tech access as a fundamental necessity.",
-    "category": "Tech, Children, Equality"
+    "category": "Tech, Children"
   },
   {
     "companyName": "Through the Trees",
@@ -991,28 +991,28 @@
     "companyWebsite": "https://www.crc-gh.org/",
     "careersPage": "",
     "notes": "A community defense and revitalization organization focused heavily on preserving the history and supporting the residents of historically Black neighborhoods in Charlotte against systemic neglect.",
-    "category": "Housing, Equality, Diaspora"
+    "category": "Housing, Diaspora"
   },
   {
     "companyName": "Center for Digital Equity",
     "companyWebsite": "https://thecenterfordigitalequity.org/",
     "careersPage": "",
-    "notes": "While housed at Queens University (which normally triggers the \"just a university\" yellow flag), their direct material community impact fighting the digital divide, providing devices, and expanding broadband access pushes them squarely into the \"Green\" tech-justice category.",
-    "category": "Funding, Tech, Equality"
+    "notes": "Housed at Queens University provides direct material community impact fighting the digital divide, providing devices, and expanding broadband access.",
+    "category": "Funding, Tech"
   },
   {
     "companyName": "Safe Alliance",
     "companyWebsite": "https://safealliance.org",
     "careersPage": "https://www.safealliance.org/about-us/employment/",
     "notes": "Direct harm-reduction and survival support organization providing shelter, legal advocacy, and counseling for survivors of domestic violence and sexual assault in the Charlotte area.",
-    "category": "Housing, Law, Equality"
+    "category": "Housing, Law, Health"
   },
   {
     "companyName": "Camino",
     "companyWebsite": "https://camino.org",
     "careersPage": "",
     "notes": "A highly effective bilingual and multicultural health center in Charlotte providing direct primary care, behavioral therapy, and upward mobility support to low-income Latino families.",
-    "category": "Health, Equality, Diaspora"
+    "category": "Health, Diaspora"
   },
   {
     "companyName": "National Digital Inclusion Alliance (NDIA)",
@@ -1054,7 +1054,7 @@
     "companyWebsite": "https://layc-dc.org",
     "careersPage": "https://www.layc-dc.org/careers",
     "notes": "A regional community organization providing educational, housing, and mental health support to low-income Black and Latino youth in the DC area.",
-    "category": "Children, Housing, Health, Equality, Diaspora"
+    "category": "Children, Housing, Health, Diaspora"
   },
   {
     "companyName": "GENDES",
@@ -1068,7 +1068,7 @@
     "companyWebsite": "https://enavanttoutes.fr",
     "careersPage": "https://enavanttoutes.fr/recrutement/",
     "notes": "A French feminist organization focused on ending gender-based violence and supporting LGBTQ+ youth and women.",
-    "category": "Equality, LGBTQIA+, Children"
+    "category": "Equality, Children"
   },
   {
     "companyName": "Rwanda Men's Resource Centre (RWAMREC)",
@@ -1082,7 +1082,7 @@
     "companyWebsite": "https://livingpeaceinstitute.org",
     "careersPage": "https://livingpeaceinstitute.org/vacancies/",
     "notes": "Operating largely in the DRC, they do incredible post-conflict community work focusing on healing trauma and preventing sexual violence.",
-    "category": "Health, Equality, Humanitarian"
+    "category": "Health, Humanitarian"
   },
   {
     "companyName": "Fundación Cultura Salud / EME",
@@ -1096,7 +1096,7 @@
     "companyWebsite": "https://en.arij.net",
     "careersPage": "",
     "notes": "The premier non-profit dedicated to supporting independent investigative journalism, fact-checking, and accountability across the MENA region.",
-    "category": "Political, Diaspora"
+    "category": "Political"
   },
   {
     "companyName": "Media Institute of Southern Africa (MISA)",
@@ -1117,7 +1117,7 @@
     "companyWebsite": "https://ijefa.org",
     "careersPage": "",
     "notes": "A phenomenal grassroots feminist organization based in the DRC focusing heavily on reproductive justice, abortion access, and preventing gender-based violence.",
-    "category": "Equality, Health, Children"
+    "category": "Equality, Health"
   },
   {
     "companyName": "International Federation of Journalists (IFJ)",
@@ -1152,7 +1152,7 @@
     "companyWebsite": "https://sembramedia.org",
     "careersPage": "",
     "notes": "A non-profit dedicated to helping independent digital media in Latin America and Spain become financially sustainable so they don't have to rely on corporate monopolies.",
-    "category": "Tech, Funding, Diaspora"
+    "category": "Tech, Funding"
   },
   {
     "companyName": "Reporters Sans Frontières (RSF)",
@@ -1215,42 +1215,35 @@
     "companyWebsite": "https://idepsca.org",
     "careersPage": "",
     "notes": "A grassroots powerhouse organizing day laborers, domestic workers, and low-income immigrants in Los Angeles through mutual aid, wage-theft defense, and popular education.",
-    "category": "Labor, Law, Immigration, Diaspora"
+    "category": "Labor, Law, Immigration"
   },
   {
     "companyName": "Eastside LEADS",
     "companyWebsite": "https://eastsideleads.org",
     "careersPage": "",
     "notes": "A grassroots coalition fighting gentrification, predatory landlords, and displacement in East Los Angeles by building raw, working-class tenant power.",
-    "category": "Housing, Political"
+    "category": "Housing, Political, Diaspora"
   },
   {
     "companyName": "Central California Environmental Justice Network",
     "companyWebsite": "https://ccejn.org",
     "careersPage": "",
     "notes": "A grassroots network empowering rural, working-class, and immigrant communities to fight back against corporate agricultural pollution and fossil fuel extraction.",
-    "category": "Environmental, Political, Diaspora"
+    "category": "Environmental, Political, Immigration"
   },
   {
     "companyName": "MediaJustice",
     "companyWebsite": "https://mediajustice.org",
     "careersPage": "",
     "notes": "Fights for racial and economic equity in a digital age, focusing heavily on ending high-tech policing, algorithmic bias, and state surveillance in communities of color.",
-    "category": "Tech, Law, Equality, Diaspora"
-  },
-  {
-    "companyName": "Mozilla",
-    "companyWebsite": "https://mozilla.org/en-US/",
-    "careersPage": "",
-    "notes": "The non-profit foundation behind Firefox. One of the most important entities fighting for an open, accessible, and privacy-respecting internet free from Big Tech monopolies.",
-    "category": "Tech"
+    "category": "Tech, Law, Diaspora"
   },
   {
     "companyName": "Float Left",
     "companyWebsite": "https://floatleft.org",
     "careersPage": "",
     "notes": "A web development agency that explicitly partners with and builds digital infrastructure for social and environmental justice organizations.",
-    "category": "Tech, Environmental"
+    "category": "Tech"
   },
   {
     "companyName": "Information Ecology",
@@ -1264,7 +1257,7 @@
     "companyWebsite": "https://collaborationsforchange.org",
     "careersPage": "",
     "notes": "A progressive consultancy providing capacity-building, strategic coaching, and crisis support for human rights campaigns, utilizing an equity-driven sliding scale to ensure grassroots access.",
-    "category": "Funding"
+    "category": "Funding, Law"
   },
   {
     "companyName": "FabRiders",
@@ -1278,7 +1271,7 @@
     "companyWebsite": "https://ajsocal.org",
     "careersPage": "",
     "notes": "A leading civil rights and legal advocacy organization providing direct legal services, immigrant defense, and grassroots organizing power.",
-    "category": "Law, Immigration, Equality, Diaspora"
+    "category": "Law, Immigration"
   },
   {
     "companyName": "The CROWN Coalition",
@@ -1313,21 +1306,21 @@
     "companyWebsite": "https://bmwe.org",
     "careersPage": "",
     "notes": "The rail workers union that aggressively fought the rail monopolies for paid sick leave and safe staffing during the 2022 strike crisis.",
-    "category": "Labor"
+    "category": "Labor, Health"
   },
   {
     "companyName": "United Electrical, Radio and Machine Workers of America (UE)",
     "companyWebsite": "https://ueunion.org",
     "careersPage": "",
     "notes": "Fiercely independent, democratic, rank-and-file union that operates outside traditional bureaucracy and maintains a highly militant political stance.",
-    "category": "Labor, Political"
+    "category": "Labor, Political, Tech"
   },
   {
     "companyName": "United Auto Workers (UAW)",
     "companyWebsite": "https://uaw.org",
     "careersPage": "",
     "notes": "Under recent leadership, the UAW has radicalized, running historic strikes against automakers and heavily supporting broader social justice movements.",
-    "category": "Labor"
+    "category": "Labor, Tech"
   },
   {
     "companyName": "Teamsters for a Democratic Union (TDU)",
@@ -1341,7 +1334,7 @@
     "companyWebsite": "https://centerfoodsafety.org",
     "careersPage": "",
     "notes": "A legal powerhouse that directly takes massive biotech corporations (like Monsanto/Bayer) to court over pesticide drift and corporate control of the food supply.",
-    "category": "Law, Environmental"
+    "category": "Law, Environmental, Health"
   },
   {
     "companyName": "Seed Savers Exchange",
@@ -1376,7 +1369,7 @@
     "companyWebsite": "https://disinfodefenseleague.org",
     "careersPage": "",
     "notes": "A distributed network disrupting online disinformation campaigns that specifically target Black, Latinx, Asian American, and Indigenous communities.",
-    "category": "Tech, Political, Equality, Diaspora"
+    "category": "Tech, Political, Indigenous, Diaspora"
   },
   {
     "companyName": "Media Literacy Now",
@@ -1425,7 +1418,7 @@
     "companyWebsite": "https://bornperfect.org",
     "careersPage": "",
     "notes": "A survivor-led campaign providing legal support and lobbying state-by-state to formally outlaw conversion therapy.",
-    "category": "Law, LGBTQIA+, Political"
+    "category": "Law, LGBTQIA+, Political, Health"
   },
   {
     "companyName": "Alveus Sanctuary",
@@ -1439,21 +1432,21 @@
     "companyWebsite": "https://rainforesttrust.org",
     "careersPage": "",
     "notes": "Maya Higa actively partnered with and raised over $250,000 for this organization during charity streams to protect rainforest habitats.",
-    "category": "Environmental"
+    "category": "Environmental, Animal"
   },
   {
     "companyName": "Rainforest Action Network (RAN)",
     "companyWebsite": "https://ran.org",
     "careersPage": "",
     "notes": "Takes aggressive, direct action to stop clear-cutting, protect ancient forests, and hold the corporate banks funding deforestation accountable.",
-    "category": "Environmental, Political, Funding"
+    "category": "Environmental, Animal"
   },
   {
     "companyName": "Cascadia Forest Defenders",
     "companyWebsite": "https://forestdefensenow.com",
     "careersPage": "",
     "notes": "A grassroots, direct-action environmental group in the Pacific Northwest famous for tree-sitting and blockading logging roads.",
-    "category": "Environmental, Political"
+    "category": "Environmental, Animal"
   },
   {
     "companyName": "p:ear",
@@ -1495,21 +1488,21 @@
     "companyWebsite": "https://thecenterfordigitalequity.org/",
     "careersPage": "",
     "notes": "Formerly the Brooklyn Community Foundation. They shifted toward a highly progressive, participatory grantmaking model that centers racial justice and directly funds grassroots, frontline organizers in Brooklyn.",
-    "category": "Funding, Tech, Equality"
+    "category": "Funding, Diaspora"
   },
   {
     "companyName": "New York Women's Foundation",
     "companyWebsite": "https://nywf.org",
     "careersPage": "",
     "notes": "A highly respected foundation that explicitly funds grassroots, community-led initiatives centering women of color, economic justice, and anti-violence work, often operating outside the traditional carceral framework.",
-    "category": "Funding, Equality, Diaspora"
+    "category": "Funding, Equality, Diaspora, Political"
   },
   {
     "companyName": "New Economy Project",
     "companyWebsite": "https://neweconomynyc.org",
     "careersPage": "",
     "notes": "A powerful grassroots organization fighting against predatory corporate capitalism, redlining, and Wall Street extraction by pushing for community land trusts and public banking.",
-    "category": "Housing, Political, Funding"
+    "category": "Housing, Political"
   },
   {
     "companyName": "SAGE",
@@ -1523,7 +1516,7 @@
     "companyWebsite": "https://urbanjustice.org",
     "careersPage": "",
     "notes": "A highly respected legal framework that actively views systemic poverty and domestic violence as human rights issues, providing radical legal defense for marginalized groups.",
-    "category": "Law, Housing"
+    "category": "Law, Housing, Diaspora"
   },
   {
     "companyName": "New Destiny Housing",
@@ -1537,7 +1530,7 @@
     "companyWebsite": "https://niacommunity.org",
     "careersPage": "",
     "notes": "A community-based funding and mutual aid organization focused on empowering marginalized neighborhoods in New York.",
-    "category": "Funding, Diaspora"
+    "category": "Funding, Housing, Diaspora"
   },
   {
     "companyName": "The Center (LGBTQ)",
@@ -1558,28 +1551,28 @@
     "companyWebsite": "https://sakhi.org",
     "careersPage": "",
     "notes": "Phenomenal, culturally specific direct-service org for survivors of gender-based violence, trafficking, and systemic poverty.",
-    "category": "Equality, Housing, Diaspora"
+    "category": "Equality"
   },
   {
     "companyName": "VIP (Violence Intervention Program)",
     "companyWebsite": "https://vipmujeres.org",
     "careersPage": "",
     "notes": "Phenomenal, culturally specific direct-service org for survivors of gender-based violence, trafficking, and systemic poverty.",
-    "category": "Equality, Housing, Diaspora"
+    "category": "Equality"
   },
   {
     "companyName": "Voces Latinas",
     "companyWebsite": "https://voceslatinas.org",
     "careersPage": "",
     "notes": "Phenomenal, culturally specific direct-service org for survivors of gender-based violence, trafficking, and systemic poverty.",
-    "category": "Equality, Housing, Diaspora"
+    "category": "Equality"
   },
   {
     "companyName": "Womankind",
     "companyWebsite": "https://iamwomankind.org",
     "careersPage": "",
     "notes": "Phenomenal, culturally specific direct-service org for survivors of gender-based violence, trafficking, and systemic poverty.",
-    "category": "Equality, Housing, Diaspora"
+    "category": "Equality"
   },
   {
     "companyName": "The Trevor Project",
@@ -1593,14 +1586,14 @@
     "companyWebsite": "https://populardemocracy.org",
     "careersPage": "",
     "notes": "A massive progressive advocacy network that builds the organizing power of working-class families, immigrants, and communities of color to fight for pro-worker policies and systemic change.",
-    "category": "Political, Labor, Diaspora"
+    "category": "Political, Labor, Diaspora, Immigration"
   },
   {
     "companyName": "Make the Road CT",
     "companyWebsite": "https://maketheroadct.org",
     "careersPage": "",
     "notes": "Working-class grassroots organization fighting aggressively for immigrant, housing, and labor rights across CT.",
-    "category": "Immigration, Housing, Labor, Diaspora"
+    "category": "Immigration, Housing, Labor"
   },
   {
     "companyName": "LABMED",
@@ -1614,21 +1607,21 @@
     "companyWebsite": "https://maketheroadpa.org",
     "careersPage": "",
     "notes": "Working-class grassroots organization fighting aggressively for immigrant, housing, and labor rights across Pennsylvania.",
-    "category": "Immigration, Housing, Labor, Diaspora"
+    "category": "Immigration, Housing, Labor"
   },
   {
     "companyName": "PYRAMEDIC Trust",
     "companyWebsite": "https://pyramedic.org",
     "careersPage": "",
     "notes": "These organizations operate as direct mutual aid funds for pet owners and independent rescues. By helping people afford emergency veterinary care for their specific breeds, they prevent the systemic trauma of economic euthanasia or poverty-based pet surrender.",
-    "category": "Animal, Funding, Health"
+    "category": "Animal, Funding"
   },
   {
     "companyName": "Make the Road NV",
     "companyWebsite": "https://maketheroadnv.org",
     "careersPage": "",
     "notes": "Working-class grassroots organization fighting aggressively for immigrant, housing, and labor rights across Nevada.",
-    "category": "Immigration, Housing, Labor, Diaspora"
+    "category": "Immigration, Housing, Labor"
   },
   {
     "companyName": "Southside Worker Center",
@@ -1642,35 +1635,35 @@
     "companyWebsite": "https://boxerrescuefoundation.com",
     "careersPage": "",
     "notes": "These organizations operate as direct mutual aid funds for pet owners and independent rescues. By helping people afford emergency veterinary care for their Boxer dogs, they prevent the systemic trauma of economic euthanasia or poverty-based pet surrender.",
-    "category": "Animal, Funding, Health"
+    "category": "Animal, Funding"
   },
   {
     "companyName": "Ajo Samaritans",
     "companyWebsite": "https://ajosamaritans.org",
     "careersPage": "",
     "notes": "Dedicated to extreme harm reduction in the Sonoran Desert, deploying volunteers to drop water and life-saving supplies on migrant trails to prevent deaths caused by the militarized border strategy.",
-    "category": "Humanitarian, Immigration"
+    "category": "Humanitarian, Immigration, Health"
   },
   {
     "companyName": "Chow Chow Welfare Fund",
     "companyWebsite": "https://chowwelfare.com",
     "careersPage": "",
     "notes": "These organizations operate as direct mutual aid funds for pet owners and independent rescues. By helping people afford emergency veterinary care for their Chow Chows, they prevent the systemic trauma of economic euthanasia or poverty-based pet surrender.",
-    "category": "Animal, Funding, Health"
+    "category": "Animal, Funding"
   },
   {
     "companyName": "Humane Borders",
     "companyWebsite": "https://humaneborders.org",
     "careersPage": "",
     "notes": "Dedicated to extreme harm reduction in the Sonoran Desert, deploying volunteers to drop water and life-saving supplies on migrant trails to prevent deaths caused by the militarized border strategy.",
-    "category": "Humanitarian, Immigration"
+    "category": "Humanitarian, Immigration, Health"
   },
   {
     "companyName": "Special Needs Dobermans",
     "companyWebsite": "https://doberman911.org",
     "careersPage": "",
     "notes": "These organizations operate as direct mutual aid funds for pet owners and independent rescues. By helping people afford emergency veterinary care for their special needs Dobermans, they prevent the systemic trauma of economic euthanasia or poverty-based pet surrender.",
-    "category": "Animal, Funding, Health"
+    "category": "Animal, Funding"
   },
   {
     "companyName": "Make the Road NJ",
