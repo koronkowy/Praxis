@@ -458,7 +458,7 @@
     "model": "Onsite",
     "deadline": "",
     "post_date": "2026-11-10",
-    "needs_manual_check": false,
+    "needs_manual_check": true,
     "last_manual_check": ""
   },
   {
@@ -730,7 +730,7 @@
   {
     "title": "Communications Coordinator",
     "company": "Knight First Amendment Institute",
-    "status": "active",
+    "status": "expired",
     "url": "https://knightcolumbia.org/page/communications-coordinator-1",
     "company_url": "https://knightcolumbia.org",
     "listed_locations": "New York, NY",
@@ -744,7 +744,7 @@
   {
     "title": "Spring 2027 Research, Policy, & Communications Internship",
     "company": "Knight First Amendment Institute at Columbia University",
-    "status": "active",
+    "status": "expired",
     "url": "https://knightcolumbia.org/page/spring-2027-research-policy-communications-internship",
     "company_url": "https://knightcolumbia.org",
     "listed_locations": "New York, NY",
@@ -1060,7 +1060,7 @@
     "model": "",
     "deadline": "",
     "post_date": "2026-11-10",
-    "needs_manual_check": false,
+    "needs_manual_check": true,
     "last_manual_check": ""
   },
   {
@@ -1074,7 +1074,7 @@
     "model": "",
     "deadline": "",
     "post_date": "2026-11-10",
-    "needs_manual_check": false,
+    "needs_manual_check": true,
     "last_manual_check": ""
   },
   {
